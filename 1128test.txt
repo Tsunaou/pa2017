@@ -1,0 +1,4655 @@
+commit cdfe20fb0366a5e58e6213f1596e4d8abe30bf61
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 15:09:09 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     15:09:09 up  4:13,  1 user,  load average: 1.04, 0.46, 0.33
+    84213798e2a28b61bf61255e31c2ab7b938acd66
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+:000000 100755 0000000... 788d4e2... A	nemu/nemu
+
+commit 31224d902bd2ba573b19c02f008a2c2ae9c18419
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 15:08:55 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     15:08:55 up  4:13,  1 user,  load average: 0.68, 0.36, 0.29
+    aeb22abf5d46bf98e95395b7b7898f5261bf652c
+
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100755 000000 788d4e2... 0000000... D	nemu/nemu
+
+commit 2032f702885a1addd548506842838dc927d1c3cf
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 15:08:21 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     15:08:21 up  4:13,  1 user,  load average: 0.61, 0.30, 0.27
+    268674c0cb1c33c37296ce4012090f6cf6532da3
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+:000000 100755 0000000... 788d4e2... A	nemu/nemu
+
+commit 217e4119b31937e54c528643099785ffff07bf2a
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 15:07:59 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     15:07:59 up  4:12,  1 user,  load average: 0.36, 0.23, 0.25
+    eb55929dc7b906b747a92fdcfbd41d6b9bbe4b17
+
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100755 000000 7c3b42e... 0000000... D	nemu/nemu
+:100755 100755 931f2ca... 9d46116... M	nemu/src/memory/cache.c
+
+commit 82294c1fb45c751d8a0443c235ab92c788e82039
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:36:06 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:36:06 up  3:40,  1 user,  load average: 0.59, 0.75, 0.68
+    35a8f7e1e4c83ed62d6cdaa8fb57bbe488bb8dd2
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+:000000 100755 0000000... 7c3b42e... A	nemu/nemu
+
+commit 49a5224391ec1ca8294baa7aed03b55467ec30df
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:35:52 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:35:52 up  3:40,  1 user,  load average: 0.38, 0.72, 0.67
+    11fb64ac4961013d586adb35511c4699bb6c0d9
+
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100755 000000 8d833f7... 0000000... D	nemu/nemu
+:100644 000000 3e9604b... 0000000... D	nemu/src/memory/.cache.c.swp
+:100755 100755 6fbcf59... 931f2ca... M	nemu/src/memory/cache.c
+
+commit 0949c347d60a745a0ccfefb8191741d5b859b45f
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:33:53 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:33:53 up  3:38,  1 user,  load average: 1.35, 0.95, 0.73
+    e064befb3b4e87de37e8408a67269d8af99a7400
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+:000000 100755 0000000... 8d833f7... A	nemu/nemu
+
+commit 638ea63a507fe8a3e233b2c92fb44345153e083c
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:33:39 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:33:39 up  3:38,  1 user,  load average: 1.35, 0.93, 0.72
+    42a74ce0a26872848e47abbd10eefe2d94ae57e6
+
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100755 000000 7d049f0... 0000000... D	nemu/nemu
+:000000 100644 0000000... 3e9604b... A	nemu/src/memory/.cache.c.swp
+:100755 100755 c202a02... 6fbcf59... M	nemu/src/memory/cache.c
+
+commit 1b242dbb7ec5b492b38c1e42977556d70f419093
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:29:54 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:29:54 up  3:34,  1 user,  load average: 1.03, 0.78, 0.64
+    a5bfe236c3571995fdcec1129409ef077281d2b9
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+:000000 100755 0000000... 7d049f0... A	nemu/nemu
+
+commit fadadd573871c366f23b2ce9bec279b6611b05df
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:29:35 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:29:35 up  3:34,  1 user,  load average: 0.75, 0.71, 0.62
+    b59acd088d82ed936182012516befba5efdc4e6
+
+:100755 100755 cc6e8ad... c202a02... M	nemu/src/memory/cache.c
+
+commit 67f744bbed227a3eede4ea2d05fca268dae330b7
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:29:20 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:29:20 up  3:34,  1 user,  load average: 0.88, 0.73, 0.62
+    e1417986e5a3e658cf67e05ac95f440f72d402e6
+
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100755 000000 8b90f72... 0000000... D	nemu/nemu
+:100755 100755 493697b... cc6e8ad... M	nemu/src/memory/cache.c
+
+commit e645d74762c301285035c68f58c326f99cffe809
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:27:13 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:27:13 up  3:31,  1 user,  load average: 0.56, 0.59, 0.56
+    fa995a5e692793c3f7c49d11428af9f57920003e
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+:000000 100755 0000000... 8b90f72... A	nemu/nemu
+
+commit 386ed1c1b0bac1d140b647fa4cd783895c7981b0
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:26:59 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:26:59 up  3:31,  1 user,  load average: 0.22, 0.53, 0.55
+    ac34607797a8ade4b05c02a5755d834e90d99775
+
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100755 000000 a620049... 0000000... D	nemu/nemu
+:100755 100755 a80ea8a... 493697b... M	nemu/src/memory/cache.c
+
+commit 190c595df13783184e992b90996076bf5bf17acf
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:25:32 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:25:32 up  3:30,  1 user,  load average: 0.56, 0.66, 0.59
+    a160ad0fc1e7c933e560f816afd9037ca0dafb98
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+:000000 100755 0000000... a620049... A	nemu/nemu
+
+commit e505ba315e79bffe932db63ec3d2bd3593effbc7
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:25:17 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:25:17 up  3:30,  1 user,  load average: 0.33, 0.62, 0.58
+    7701e3ce53d14c0d35948545c072440cde32f81f
+
+:100755 100755 e42733f... a80ea8a... M	nemu/src/memory/cache.c
+
+commit d7286f8c0d46621646a36ba8323cd1745fe70322
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:24:36 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:24:36 up  3:29,  1 user,  load average: 0.43, 0.68, 0.59
+    86367001848620be8f78237d9814bc4a49fe12
+
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100755 000000 a67ca0b... 0000000... D	nemu/nemu
+:100755 100755 39ad4a2... e42733f... M	nemu/src/memory/cache.c
+
+commit 17e03d25a6086c76afb1259f5befc91440be0ea6
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:22:42 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:22:42 up  3:27,  1 user,  load average: 1.52, 0.85, 0.62
+    367c2049b865edcb52b0c30d89cc8051884f0801
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+:000000 100755 0000000... a67ca0b... A	nemu/nemu
+
+commit 01b8de75bc4b78c00b53407b56bf541ee03e4007
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:22:25 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:22:25 up  3:27,  1 user,  load average: 1.57, 0.82, 0.61
+    2d8f1d11bf0828fd47c8574f3d927d9f6a4ac5c2
+
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100755 000000 bd3576f... 0000000... D	nemu/nemu
+:100755 100755 dc85398... 39ad4a2... M	nemu/src/memory/cache.c
+
+commit 1e58e935e28210d9c943edf074755fb3042301ac
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:21:05 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:21:05 up  3:25,  1 user,  load average: 0.96, 0.66, 0.55
+    f17b70a902b71a3f004413ab080071678ab38c6
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+:000000 100755 0000000... bd3576f... A	nemu/nemu
+
+commit abfab325d6ed3f4dda4bdf9aa437af061a8662f5
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:20:47 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:20:47 up  3:25,  1 user,  load average: 0.56, 0.57, 0.52
+    1ee1c78dff441fa5a7980dede91620b88b7e90c6
+
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100755 000000 bd3576f... 0000000... D	nemu/nemu
+:100644 000000 c379bb4... 0000000... D	nemu/src/memory/.cache.c.swp
+
+commit 10a349fc08885407ce990aaaede364702a57fe6b
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:19:26 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:19:26 up  3:24,  1 user,  load average: 0.73, 0.60, 0.53
+    cec3b39b9f0b2164a809c13193637084418fcbed
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+
+commit fb2d0a2e9e19e249d40cabdc89c68fa241ac742a
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:19:23 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:19:23 up  3:24,  1 user,  load average: 0.53, 0.56, 0.51
+    c17adc5ccba915578274a1b660f26ce0e56f3d07
+
+:000000 100755 0000000... bd3576f... A	nemu/nemu
+
+commit 1815a726ecf8506a6cb5e3922083330b2f83abda
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:19:07 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:19:07 up  3:23,  1 user,  load average: 0.31, 0.52, 0.50
+    9ce989d76bc03f24e64ae618d813af5a89e88aba
+
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100755 000000 bd3576f... 0000000... D	nemu/nemu
+:100644 100644 30bb262... c379bb4... M	nemu/src/memory/.cache.c.swp
+
+commit 3dd0013ac27ec6cbc3fdca4e470ab89768ed9046
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:18:32 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:18:32 up  3:23,  1 user,  load average: 0.57, 0.59, 0.52
+    d8cbbc78d4a1a095b1666fbbd8143aefe6035ff3
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+:000000 100755 0000000... bd3576f... A	nemu/nemu
+
+commit 60c6f299172196559f991999ddcd179d1a62be6c
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:18:16 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:18:16 up  3:23,  1 user,  load average: 0.34, 0.55, 0.51
+    6574b4a83d7e1c4225183bd5518e9d941698342c
+
+:000000 100644 0000000... e69de29... A	13
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100755 000000 0118836... 0000000... D	nemu/nemu
+
+commit 808925b5c504f0c48aba08f75b62d9b65b5171ba
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:17:01 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:17:01 up  3:21,  1 user,  load average: 0.55, 0.63, 0.53
+    139611dff23c9b3b59e8078bbfd0489b5c0a07c9
+
+:100644 100644 04733e9... 30bb262... M	nemu/src/memory/.cache.c.swp
+:100755 100755 dddc837... dc85398... M	nemu/src/memory/cache.c
+
+commit 22bcdf41d363285a9014c9499fb77613aa1a417d
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:15:48 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:15:48 up  3:20,  1 user,  load average: 0.61, 0.66, 0.53
+    1f8dc685b55e5020bc1d185f9c4237744d32c227
+
+:100644 100644 05a97da... 04733e9... M	nemu/src/memory/.cache.c.swp
+:100755 100755 c26a17b... dddc837... M	nemu/src/memory/cache.c
+
+commit 55213e963854b9d8cf83eb5d9c4bae0b366ca12c
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:15:21 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:15:21 up  3:20,  1 user,  load average: 0.72, 0.68, 0.53
+    38864da0a874cd702c277d26354f842180aae31a
+
+:100644 100644 cabd1e4... 05a97da... M	nemu/src/memory/.cache.c.swp
+:100755 100755 46af3ab... c26a17b... M	nemu/src/memory/cache.c
+
+commit 76e7248deb3dc8012d951fe1b867fdcda7cd1568
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:10:43 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:10:43 up  3:15,  1 user,  load average: 0.41, 0.58, 0.46
+    c7fd136e65b0dc6e2297a39598b90d7ce3905fdf
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+:000000 100755 0000000... 0118836... A	nemu/nemu
+
+commit afb5a5eb3474f604fb0169eca011d133d7ad8ee9
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:10:30 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:10:30 up  3:15,  1 user,  load average: 0.30, 0.56, 0.45
+    f16dfdfede48275dc13a3321924657c613eb42b
+
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100755 000000 54041ac... 0000000... D	nemu/nemu
+:100755 100755 af5f719... 46af3ab... M	nemu/src/memory/cache.c
+
+commit 0d47faff08878ccbfedd5cd2ec8b6ec2067283ff
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:09:34 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:09:34 up  3:14,  1 user,  load average: 0.33, 0.62, 0.46
+    38e72d50124f5d0812c66c4abbc72e3f7040d405
+
+:100755 100755 a4596b7... 54041ac... M	nemu/nemu
+
+commit 1911e2c14dcfaa927cf80cd1d0d3f0ff539e89d7
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:09:33 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:09:33 up  3:14,  1 user,  load average: 0.33, 0.62, 0.46
+    fcd2bba47c830e1f7fae7ac2d0dac3251e9b1d1
+
+:100644 100644 1005d6d... cabd1e4... M	nemu/src/memory/.cache.c.swp
+:100755 100755 512dfe0... af5f719... M	nemu/src/memory/cache.c
+
+commit bac041e20b3b3f26ed2f57d982f1dc5b3fff0c41
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:07:56 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:07:56 up  3:12,  1 user,  load average: 0.79, 0.74, 0.48
+    77ea54c242db71d4461033b12b0ac3dc9276f999
+
+:100755 100755 a67ca0b... a4596b7... M	nemu/nemu
+
+commit eb0ed86599d50cea4d64ea10b34dbc3f5cd19633
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:07:52 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:07:52 up  3:12,  1 user,  load average: 0.86, 0.76, 0.49
+    4756055c655e406b6bbc918a4d5914146420332
+
+:100644 100644 13f5429... 1005d6d... M	nemu/src/memory/.cache.c.swp
+:100755 100755 75c96e9... 512dfe0... M	nemu/src/memory/cache.c
+
+commit b0644c0263a139bd324d7f0803fd0b54c2ebfa0b
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:06:14 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:06:14 up  3:10,  1 user,  load average: 1.64, 0.77, 0.46
+    13f279d03ec93dd1cd03296a2e149b1773cde39a
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+
+commit 62f3209ad49e12c5d41d777d8d7885d1b8421993
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:06:09 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:06:09 up  3:10,  1 user,  load average: 1.61, 0.75, 0.46
+    c9d602e134d889c0ce70499fac472dfcd671eaf1
+
+:000000 100755 0000000... a67ca0b... A	nemu/nemu
+
+commit d03c251f668f3e4877936f3e393a2419b6397e3f
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 14:05:56 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     14:05:56 up  3:10,  1 user,  load average: 0.55, 0.53, 0.38
+    7ed537c529454e3b1d4a97b0bba8fe0e46cec50
+
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100644 000000 1cc6025... 0000000... D	nemu/include/memory/.cache.h.swp
+:100755 000000 94ba375... 0000000... D	nemu/nemu
+:100644 100644 3f28bbf... 13f5429... M	nemu/src/memory/.cache.c.swp
+:100644 000000 24ec354... 0000000... D	nemu/src/memory/.memory.c.swp
+:100644 100755 18f17d6... 75c96e9... M	nemu/src/memory/cache.c
+
+commit 56200bf96179d210df3fab8b73dae811fd8eb54c
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:54:15 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:54:15 up  2:59,  1 user,  load average: 0.38, 0.31, 0.27
+    d4444e69fb1e0ce720f34bd3193481e6537f3317
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+
+commit 6d2e8ab645906403ea44dd1843d320241253f47c
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:54:06 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:54:06 up  2:58,  1 user,  load average: 0.26, 0.29, 0.26
+    3a4347c3325e8199efcd2976d69379d64b57495
+
+:100755 100755 01efb86... 94ba375... M	nemu/nemu
+:100644 100644 20c30c3... 3f28bbf... M	nemu/src/memory/.cache.c.swp
+
+commit 16c9e000ed45b14e37cf5527254c9924cd1cdf11
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:54:05 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:54:05 up  2:58,  1 user,  load average: 0.26, 0.29, 0.26
+    cd6e0ec24def61d9440d9a08e8a5877eb33eea67
+
+:100644 100644 d36d636... 1cc6025... M	nemu/include/memory/.cache.h.swp
+:100644 100644 c0e5ac0... b0a6713... M	nemu/include/memory/cache.h
+:100644 100644 d62e9d4... 20c30c3... M	nemu/src/memory/.cache.c.swp
+:100644 100644 6a215f3... 18f17d6... M	nemu/src/memory/cache.c
+
+commit 7cece466860f36f2f9d539ca4fe4d8c2c9c7d780
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:51:31 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:51:31 up  2:56,  1 user,  load average: 0.49, 0.38, 0.28
+    49ed638ba2419f8f269eefbe7344712bbd64d067
+
+:000000 100755 0000000... 01efb86... A	nemu/nemu
+
+commit 751a6083063bd6262c30fb38957279dbf2ce39bf
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:51:18 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:51:18 up  2:56,  1 user,  load average: 0.40, 0.36, 0.28
+    6ca299749dd23e5187ae487a5aefacdd5fc703a
+
+:100644 000000 26dd4fc... 0000000... D	include/.config.h.swp
+:100755 100755 08705bc... c215c78... M	include/config.h
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100755 000000 aef960e... 0000000... D	nemu/nemu
+
+commit ed17612613ac9e899d1e5cc8469858ac3e898ec0
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:50:35 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:50:35 up  2:55,  1 user,  load average: 0.57, 0.36, 0.28
+    e0beac64fe1bf3c1d100f6b518a7d4c07d49f451
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+
+commit 479e69fcbd0373a11cf637d5cdb78ba7e2ab2696
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:50:33 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:50:33 up  2:55,  1 user,  load average: 0.53, 0.35, 0.27
+    14cf1777914657a33dd4c818563e134136aee1
+
+:000000 100755 0000000... aef960e... A	nemu/nemu
+
+commit 817dc3f4b6bdd850465f8dfe60182385f7ec5bf8
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:50:19 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:50:20 up  2:55,  1 user,  load average: 0.45, 0.33, 0.26
+    60fa4f67bb80b8d2b2c140993568351e1cca758a
+
+:000000 100644 0000000... 26dd4fc... A	include/.config.h.swp
+:100755 100755 c215c78... 08705bc... M	include/config.h
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100755 000000 8c92a22... 0000000... D	nemu/nemu
+:100644 100644 6c75268... d62e9d4... M	nemu/src/memory/.cache.c.swp
+:100644 100644 82251d5... 6a215f3... M	nemu/src/memory/cache.c
+
+commit f18fd3c7a599bb107bc6c1477f87f13df351e312
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:44:29 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:44:29 up  2:49,  1 user,  load average: 0.07, 0.27, 0.25
+    931966fcdc4858fd3975b8f2b4dc4851242601ba
+
+:100755 100755 58cfaa3... 8c92a22... M	nemu/nemu
+
+commit 94fc90ee797b5f9e2d8ec97bf3e5cb8e2e9bb0a2
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:44:25 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:44:25 up  2:49,  1 user,  load average: 0.07, 0.28, 0.25
+    5b4a29125d66425aa61d42f35f501f9a9dce82da
+
+:100644 100644 ba7277b... 6c75268... M	nemu/src/memory/.cache.c.swp
+:100644 100644 79aec47... 82251d5... M	nemu/src/memory/cache.c
+
+commit fc313fb4c2c81fa37d4b0c6765f22533c1f3d7a5
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:42:10 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:42:10 up  2:46,  1 user,  load average: 0.52, 0.41, 0.29
+    cd82668ce9ec4a4373d88f3bb14ee35d492bd2ad
+
+:100755 100755 bd0e5d7... 58cfaa3... M	nemu/nemu
+:100644 100644 0792e30... ba7277b... M	nemu/src/memory/.cache.c.swp
+
+commit 2bb232953012a50a032cfb4f6cab93008d564dd2
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:42:07 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:42:07 up  2:46,  1 user,  load average: 0.52, 0.41, 0.29
+    313e2e96f1bba64fa583a7f632abf0c186a73ed
+
+:100644 100644 7939e53... 0792e30... M	nemu/src/memory/.cache.c.swp
+:100644 100644 9d4a43e... 79aec47... M	nemu/src/memory/cache.c
+
+commit 8c321107313646597b22e98ad2e2ed2bc6d0a874
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:38:46 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:38:46 up  2:43,  1 user,  load average: 0.19, 0.21, 0.22
+    d25d620d3d7f15a824e3b4731a272612fd59cef3
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+:000000 100755 0000000... bd0e5d7... A	nemu/nemu
+
+commit 6aaf1dbf093d5e0cecd03dbcbd85717cb4bab0e0
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:38:34 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:38:34 up  2:43,  1 user,  load average: 0.04, 0.18, 0.21
+    14a9d36a16da634abbb8eee46170dd60eedf438e
+
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100755 000000 bd0e5d7... 0000000... D	nemu/nemu
+
+commit 5bad76d273051bf661c386441f7505b5bed56484
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:38:24 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:38:24 up  2:43,  1 user,  load average: 0.05, 0.19, 0.21
+    7bb43eba9ad2fdd45eea3b5fe1b6817148949f29
+
+:100755 100755 f81a217... bd0e5d7... M	nemu/nemu
+:100644 100644 465c8da... 7939e53... M	nemu/src/memory/.cache.c.swp
+
+commit 4dd2c672eddc1194ca82f2eeef2bf1ffd0d3f307
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:38:21 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:38:21 up  2:43,  1 user,  load average: 0.06, 0.19, 0.21
+    3b4cdd54fab47ee72b1381ff47a1d4ec55ac4d33
+
+:100644 100644 e308ba5... 465c8da... M	nemu/src/memory/.cache.c.swp
+:100644 100644 65e135c... 9d4a43e... M	nemu/src/memory/cache.c
+
+commit 3bc68bed75b08eaab8a62905dea86cc0cce82c92
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:38:05 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:38:05 up  2:42,  1 user,  load average: 0.07, 0.20, 0.22
+    5aab927552762f21160310a4503068b931e04786
+
+:100644 100644 8fbeda7... e308ba5... M	nemu/src/memory/.cache.c.swp
+:100644 100644 4dfce5d... 65e135c... M	nemu/src/memory/cache.c
+
+commit 6bdabd2a141f187b8ddf9657ef884b7480be0785
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:27:36 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:27:36 up  2:32,  1 user,  load average: 0.35, 0.33, 0.25
+    93cf1c3c21dbd2fa13c225bf44d5d58d3f2509ff
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+
+commit 52365674ed9f1157e7a5433d35d9b9f46a567e95
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:27:33 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:27:33 up  2:32,  1 user,  load average: 0.35, 0.33, 0.25
+    b2913d79a35984739b4cac3c3451d110d802d427
+
+:000000 100755 0000000... f81a217... A	nemu/nemu
+
+commit dacef8095944b079d75a4c15377ee53a1c9da89d
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:27:20 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:27:20 up  2:32,  1 user,  load average: 0.18, 0.29, 0.24
+    952293ee378d6d8b275700f68491773e7447bb0c
+
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100755 000000 f81a217... 0000000... D	nemu/nemu
+
+commit 82af5f94ed8a1a041f7cb02308e97f68046c2692
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:27:16 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:27:16 up  2:32,  1 user,  load average: 0.19, 0.30, 0.24
+    79c61ac62b997568d90f816734370d6b7f0d1543
+
+:100755 100755 cb60ac8... f81a217... M	nemu/nemu
+:100644 100644 a312eb6... 8fbeda7... M	nemu/src/memory/.cache.c.swp
+
+commit 95bf8684da11e1747b0e120696817eb4d7efd4fb
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:27:14 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:27:14 up  2:31,  1 user,  load average: 0.19, 0.30, 0.24
+    b56a716cd5eb1d84a99a4ede9e0d38709a91de
+
+:100644 100644 3311f0a... a312eb6... M	nemu/src/memory/.cache.c.swp
+:100644 100644 3debe52... 4dfce5d... M	nemu/src/memory/cache.c
+
+commit 4ad8776338b53eae2792b042a30be4c856e1f091
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:25:59 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:25:59 up  2:30,  1 user,  load average: 0.68, 0.39, 0.27
+    c36e2a849f8483e47bbb8067ca2674f3800e229e
+
+:100755 100755 a615a29... cb60ac8... M	nemu/nemu
+
+commit 11ad9984e733619565dc1bb5ac96e39b85b4472c
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:25:57 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:25:57 up  2:30,  1 user,  load average: 0.68, 0.39, 0.27
+    8518a3538cbbe5dbf15cfcd7b307fdb33dac1147
+
+:100644 100644 0dcfea2... 3311f0a... M	nemu/src/memory/.cache.c.swp
+:100644 100644 33b0726... 3debe52... M	nemu/src/memory/cache.c
+
+commit e46f05735b3a04bde30889d08f47b18a3b6688ae
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:24:14 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:24:14 up  2:28,  1 user,  load average: 0.30, 0.12, 0.17
+    925958cf1eb75bbcf9dbbe8c2319e9b2f211a9cc
+
+:100755 100755 ad9ec31... a615a29... M	nemu/nemu
+
+commit dd6a67ec7eda8532589df5462a2fcdbd53b342c2
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:24:13 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:24:13 up  2:28,  1 user,  load average: 0.30, 0.12, 0.17
+    290b6c1e451e396eb0be95039d95b361e42e8219
+
+:100644 100644 87b6eef... 0dcfea2... M	nemu/src/memory/.cache.c.swp
+:100644 100644 dc553d7... 33b0726... M	nemu/src/memory/cache.c
+
+commit 49d9a236a7af77e191dbb7c9e8c12c042dc93a5e
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:12:11 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:12:11 up  2:16,  1 user,  load average: 0.02, 0.25, 0.29
+    f87c2fa7ea7f0d7dd54579cf16c14ec6cf3e626e
+
+:100755 100755 795b7a0... ad9ec31... M	nemu/nemu
+:100644 100644 0433fde... 87b6eef... M	nemu/src/memory/.cache.c.swp
+
+commit 8565fbb1880f7f26058878b44e75f18d5ccf67ed
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:12:09 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:12:09 up  2:16,  1 user,  load average: 0.02, 0.25, 0.29
+    bbbe84e02bbf12684a73456392eb77a1d38a55d4
+
+:100644 100644 9db9ec6... 0433fde... M	nemu/src/memory/.cache.c.swp
+:100644 100644 60f843f... dc553d7... M	nemu/src/memory/cache.c
+
+commit e86186a4eca7dcab4af826e6e4614c4d754e2285
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:09:40 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:09:40 up  2:14,  1 user,  load average: 0.30, 0.42, 0.35
+    5f4df9a3515a3cb99ef4f3774b4fb073c5462431
+
+:100644 100644 27431f7... 9db9ec6... M	nemu/src/memory/.cache.c.swp
+:100644 100644 1642440... 60f843f... M	nemu/src/memory/cache.c
+
+commit b8180972a777eac7789e793fa8050b1a64f10488
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:05:50 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:05:50 up  2:10,  1 user,  load average: 0.41, 0.46, 0.35
+    fe76549766145f6a29348456450af08e53fe0d4e
+
+:100644 100644 20adda3... 27431f7... M	nemu/src/memory/.cache.c.swp
+:100644 100644 60f843f... 1642440... M	nemu/src/memory/cache.c
+
+commit 06c83b024dd9c00a4d8751f1134dc5d798a998c0
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:05:22 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:05:22 up  2:10,  1 user,  load average: 0.63, 0.50, 0.35
+    d588269c7109fda8fbc72fe4d225b255a38e8312
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+
+commit 31334ec0a1db27f5873d4ef248e55d2cc4a7cc47
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:05:20 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:05:20 up  2:10,  1 user,  load average: 0.60, 0.49, 0.35
+    2b39ed245e9cd6adb7090c5ef94c21ebb154cb61
+
+:000000 100755 0000000... 795b7a0... A	nemu/nemu
+
+commit 003cce67b90279569eda7d89ac320ace795fc069
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:04:46 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:04:46 up  2:09,  1 user,  load average: 0.71, 0.49, 0.35
+    cb73cf69fd0d68b22a003b11d3b106e9e51cedf9
+
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100755 000000 795b7a0... 0000000... D	nemu/nemu
+
+commit c7d4423504c54223db279892e8b3930ee7982a56
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:04:38 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:04:38 up  2:09,  1 user,  load average: 0.84, 0.51, 0.35
+    1659703cb7c0dba3270b0a0fa73afdb39d88377d
+
+:100755 100755 55ca5f3... 795b7a0... M	nemu/nemu
+
+commit c9f97ed0f02597d39971feafe9fc8bf3037af011
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 13:04:35 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:04:35 up  2:09,  1 user,  load average: 0.82, 0.50, 0.35
+    e1fb136b3fe9ed82541a80cb12d767325917517
+
+:100644 100644 119c5ac... 20adda3... M	nemu/src/memory/.cache.c.swp
+:100644 100644 9f6c515... 60f843f... M	nemu/src/memory/cache.c
+
+commit 7255280e30ea845b8ceedc9fabdc6c73186f0fec
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 12:44:41 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:44:41 up  1:49,  1 user,  load average: 0.90, 0.50, 0.35
+    fb49ef397593b667a5bc61fe532c5738d7bbfcc9
+
+:100644 100644 e4bb44f... 119c5ac... M	nemu/src/memory/.cache.c.swp
+
+commit 51986d6641a93606a9b7e942e196bc70fa597132
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 12:40:45 2017 -0500
+
+    >  test
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:40:45 up  1:45,  1 user,  load average: 0.33, 0.28, 0.27
+    8a5e315fe788fafd7746ce2f7c604b4a6a50e64
+
+:100755 100755 6253c72... 55ca5f3... M	nemu/nemu
+:100644 100644 95bb439... e4bb44f... M	nemu/src/memory/.cache.c.swp
+
+commit c6bd5997563926476f4563d861589ac0c006e32b
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 12:40:44 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:40:44 up  1:45,  1 user,  load average: 0.27, 0.27, 0.27
+    3d9efefa927ac9ffc1692ad3f1822caca2acde07
+
+:100644 100644 b1002ec... 95bb439... M	nemu/src/memory/.cache.c.swp
+:100644 100644 df05bd3... 9f6c515... M	nemu/src/memory/cache.c
+
+commit e25f1d870739516c7c42bfb43a7fb58ecc0dd33a
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 12:33:25 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:33:25 up  1:38,  1 user,  load average: 0.16, 0.25, 0.27
+    6b78666577356212bac4e2fe732d8795a1b5d4e
+
+:100755 100755 efc3aef... 6253c72... M	nemu/nemu
+:100644 100644 519a3a2... b1002ec... M	nemu/src/memory/.cache.c.swp
+
+commit 61a60bc42b4ea7f976e7e2f522a726851ffb9051
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 12:33:23 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:33:23 up  1:38,  1 user,  load average: 0.18, 0.25, 0.27
+    92e9a5acdfb7cd555a12c3ee1a99108486b4f338
+
+:100644 100644 c78373c... 519a3a2... M	nemu/src/memory/.cache.c.swp
+:100644 100644 55686d2... df05bd3... M	nemu/src/memory/cache.c
+
+commit 7c4da120d76f4a3d27e2b73f7e6941c0739cf8ff
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 12:27:20 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:27:20 up  1:32,  1 user,  load average: 0.24, 0.28, 0.27
+    dbaa2adc1cef74e72a7ec33a70465a9a8d29feb7
+
+:100755 100755 90ca32f... efc3aef... M	nemu/nemu
+:100644 100644 4de3e36... c78373c... M	nemu/src/memory/.cache.c.swp
+
+commit 8956364179529272e520eb7b70e8044e80f87bb5
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 12:27:19 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:27:19 up  1:32,  1 user,  load average: 0.17, 0.27, 0.27
+    9fa1641edff56dca472910581a1e878c851cb5f8
+
+:100644 100644 4398011... 4de3e36... M	nemu/src/memory/.cache.c.swp
+:000000 100644 0000000... 24ec354... A	nemu/src/memory/.memory.c.swp
+:100644 100644 67c04f7... 55686d2... M	nemu/src/memory/cache.c
+
+commit 26b8287ef59a3d5c55919ac7d6b976386f99f24b
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 12:25:33 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:25:33 up  1:30,  1 user,  load average: 0.17, 0.29, 0.28
+    415c72e02bf9520131eeaf8664537cb79b47a919
+
+:100644 100644 acf8781... 4398011... M	nemu/src/memory/.cache.c.swp
+:100644 100644 f8bc367... 67c04f7... M	nemu/src/memory/cache.c
+
+commit 11face3303edf4695f55ead06af367190ee72b60
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 12:23:53 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:23:53 up  1:28,  1 user,  load average: 0.28, 0.29, 0.28
+    97257c0665a856e3f73d41a5f4a69b84c740bce7
+
+:100644 100644 438a19c... acf8781... M	nemu/src/memory/.cache.c.swp
+:100644 100644 e28fd64... f8bc367... M	nemu/src/memory/cache.c
+
+commit 20c8d1c2c9d61b704c87a6923780184da09f3f14
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 12:23:23 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:23:23 up  1:28,  1 user,  load average: 0.06, 0.26, 0.27
+    5accac8666620eb6d9081d12f2ab932c3faf86e0
+
+:100644 100644 8127b18... 438a19c... M	nemu/src/memory/.cache.c.swp
+
+commit 692c9c79c162b9cf1d85ce668dee5fcf4296b036
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 12:23:21 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:23:21 up  1:28,  1 user,  load average: 0.06, 0.26, 0.27
+    db1146a538e197759724c16925acf7e4121f1f33
+
+:100644 100644 26c1a91... 8127b18... M	nemu/src/memory/.cache.c.swp
+
+commit 173b9359ca08615e239f861a9160c6fefbaaa7e6
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 12:18:47 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:18:47 up  1:23,  1 user,  load average: 0.48, 0.32, 0.28
+    2aa4ad2838c85e2cde16abbd5a239d4d14963eb4
+
+:100755 100755 e5b838e... 90ca32f... M	nemu/nemu
+
+commit 7158fab5d20cd11538e793818bbc1a2829aa4350
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 12:18:44 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:18:44 up  1:23,  1 user,  load average: 0.48, 0.32, 0.28
+    76b13e501a09a98b4fec1403e1e43108f147158c
+
+:100644 100644 fb3b74e... 26c1a91... M	nemu/src/memory/.cache.c.swp
+:100644 100644 a166fd5... e28fd64... M	nemu/src/memory/cache.c
+
+commit ba3b7266578cdc9763ba2ddaf1d7de5afa11c48e
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 12:18:03 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:18:03 up  1:22,  1 user,  load average: 0.12, 0.23, 0.25
+    c802cbfcb1572b8532fa8a34fec8d686b2a3fc81
+
+:100755 100755 70d82e1... e5b838e... M	nemu/nemu
+
+commit d75240c7676eb885c8e3ff4f6eb8a6f9e1b8148c
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 12:18:00 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:18:00 up  1:22,  1 user,  load average: 0.12, 0.23, 0.25
+    32b34d855b57742f457034d7ed59dfb5c866ee
+
+:100644 100644 e63cbc2... fb3b74e... M	nemu/src/memory/.cache.c.swp
+:100644 100644 da7abd9... a166fd5... M	nemu/src/memory/cache.c
+
+commit c7e7f1259b7af789b04968199967d37bcfb2544a
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 12:16:49 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:16:49 up  1:21,  1 user,  load average: 0.26, 0.28, 0.27
+    3e7e8de77d0478dc1307214668c84b77a284c564
+
+:100644 100644 7869938... e63cbc2... M	nemu/src/memory/.cache.c.swp
+:100644 100644 4affb80... da7abd9... M	nemu/src/memory/cache.c
+
+commit cd01bc7d9c5f701081daf48086d0b42bb6375ebf
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 12:16:15 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:16:15 up  1:21,  1 user,  load average: 0.19, 0.27, 0.26
+    96cd2cc2e624f77cb3778ff3fc6e2f313cf48a11
+
+:000000 100644 0000000... d36d636... A	nemu/include/memory/.cache.h.swp
+:100644 100644 d41acee... 7869938... M	nemu/src/memory/.cache.c.swp
+:100644 100644 cf59ade... 4affb80... M	nemu/src/memory/cache.c
+
+commit 479194266a67eb9f5720865141bfbe1c034c404a
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 11:28:47 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     11:28:47 up 33 min,  1 user,  load average: 0.21, 0.47, 0.41
+    72acf743ecd145b75174ea9ff8515a5fdf955270
+
+:100755 100755 738ae26... 70d82e1... M	nemu/nemu
+
+commit 476b3e7601b7ac71d94d363bc98f70314c426898
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 11:28:42 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     11:28:42 up 33 min,  1 user,  load average: 0.23, 0.47, 0.41
+    70ffe1183ea75127b9798c9716f535962c99a183
+
+:100644 100644 ddd5cf3... d41acee... M	nemu/src/memory/.cache.c.swp
+:100644 100644 afd28a4... cf59ade... M	nemu/src/memory/cache.c
+
+commit e243f3d9866b7f1cae5f3e4c4fc4d8e861add961
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 11:27:54 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     11:27:54 up 32 min,  1 user,  load average: 0.53, 0.56, 0.44
+    7e19afbf19ac5066f2e15d1b2e440a8477d7a692
+
+:100644 100755 ffa4dcb... 738ae26... M	nemu/nemu
+
+commit e0ce0044d0cc29832e1128ce70bb397947fa8a1c
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 11:27:53 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     11:27:53 up 32 min,  1 user,  load average: 0.53, 0.56, 0.44
+    67ac08d9c340704aad00f85d11652f83a3dee46
+
+:100755 100644 738ae26... ffa4dcb... M	nemu/nemu
+
+commit 0c78998bf7dbff967eb58f43cd94d5b71f4cfcf9
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 11:27:25 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     11:27:25 up 32 min,  1 user,  load average: 0.30, 0.52, 0.42
+    5a0aa44d9a8fe89adb4a5944dcd03fb6d5f52312
+
+:100755 100755 d763f72... 738ae26... M	nemu/nemu
+
+commit c20a2227c35903307d0decb46d8f548deb1a9367
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 11:27:22 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     11:27:22 up 32 min,  1 user,  load average: 0.30, 0.52, 0.42
+    5ebaf66b4e6edd221fd099fe463ca32c95709f32
+
+:100644 100644 a854920... ddd5cf3... M	nemu/src/memory/.cache.c.swp
+:100644 000000 67618a5... 0000000... D	nemu/src/memory/.memory.c.swp
+:100644 100644 081d4ba... afd28a4... M	nemu/src/memory/cache.c
+
+commit 91d5b9242992c20ab23e64fd8940d99e9756356a
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 11:26:23 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     11:26:23 up 31 min,  1 user,  load average: 0.57, 0.59, 0.43
+    ef9487ed6bd199c8cead179b56fe76d3a6bd7b47
+
+:100755 100755 f376121... d763f72... M	nemu/nemu
+
+commit 5e6477e83023d18867ad12835efd5435e31fab55
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 11:26:20 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     11:26:20 up 31 min,  1 user,  load average: 0.62, 0.60, 0.44
+    7fe2151a218efa914fdb0498161a919bb7a56cf
+
+:100644 100644 ff17954... a854920... M	nemu/src/memory/.cache.c.swp
+:100644 100644 1de2882... 081d4ba... M	nemu/src/memory/cache.c
+
+commit 6cc3f06a55e09a5d0f65b2f3195ed619e42523d6
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 11:25:01 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     11:25:01 up 29 min,  1 user,  load average: 0.76, 0.59, 0.42
+    df19cb1e497dd317224e78a63c3c11293ebe9c93
+
+:100755 100755 03e38ce... f376121... M	nemu/nemu
+:100644 100644 5f85f7c... ff17954... M	nemu/src/memory/.cache.c.swp
+
+commit d4cf1344427ab37411ab83737fd44f814efefd7c
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 11:24:55 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     11:24:55 up 29 min,  1 user,  load average: 0.70, 0.58, 0.41
+    48a1d72058e0d521154445089ca6d00a24320c34
+
+:100644 100644 7e06360... 5f85f7c... M	nemu/src/memory/.cache.c.swp
+:100644 100644 1a5a360... 1de2882... M	nemu/src/memory/cache.c
+
+commit 1ab78d914fe2e36099e1231d91c1e815c92f42ef
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 11:22:42 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     11:22:42 up 27 min,  1 user,  load average: 1.15, 0.43, 0.34
+    b2e83428ac4ed74c9534c16a9e67ce5e8b380e
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+
+commit 06d187f1878398f2a108baa4faebe1f124ae1ac6
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 11:22:37 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     11:22:37 up 27 min,  1 user,  load average: 1.07, 0.41, 0.33
+    c34fe4833e7e2625f908a1c494e60a963faec97
+
+:000000 100755 0000000... 03e38ce... A	nemu/nemu
+
+commit beb827d30e35396f9669dae18cec7648dcd14af6
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 11:22:18 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     11:22:17 up 27 min,  1 user,  load average: 1.13, 0.36, 0.32
+    c38517461790d32c1a17931d9f95e9b9df869fa8
+
+:100644 100644 29d83a9... 7e06360... M	nemu/src/memory/.cache.c.swp
+:100644 100644 6603617... 1a5a360... M	nemu/src/memory/cache.c
+
+commit 526d988f4597d822c4813eb47054b5c34130527a
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 11:21:36 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     11:21:36 up 26 min,  1 user,  load average: 0.18, 0.16, 0.25
+    6f8c785966c8a0cfcfa883c7f852612a3186f4fa
+
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100755 000000 058cc01... 0000000... D	nemu/nemu
+:100644 100644 6356cc4... 29d83a9... M	nemu/src/memory/.cache.c.swp
+:000000 100644 0000000... 67618a5... A	nemu/src/memory/.memory.c.swp
+:100644 100644 25468a8... 6603617... M	nemu/src/memory/cache.c
+
+commit ccb82f1fa240a70f18b2411f679a342e8ed38c02
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Nov 28 11:05:58 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     11:05:57 up 10 min,  1 user,  load average: 0.37, 0.44, 0.32
+    3e676a3ffa1f00cbcea9a367df1826eb5db3ffaf
+
+:100644 100644 f2c4641... 6356cc4... M	nemu/src/memory/.cache.c.swp
+
+commit b9eab33ba0f4ce51f1efba801ac2e87e2d1e753e
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 23:21:49 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     23:21:49 up  4:41,  1 user,  load average: 0.70, 0.45, 0.32
+    d8592b4bee8f04a2272d68e4681abaf678e32fc8
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+
+commit 82bf24a7d203e053f9e37e08881b8e1233152ce8
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 23:21:46 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     23:21:46 up  4:41,  1 user,  load average: 0.59, 0.42, 0.32
+    d2afe9d210fe2bee392b99f379e94d1fa471ed56
+
+:000000 100755 0000000... 058cc01... A	nemu/nemu
+
+commit 0f38aab77cd170033be3b9093ce7cb61df2176c5
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 23:21:32 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     23:21:32 up  4:40,  1 user,  load average: 0.51, 0.40, 0.31
+    48dd949aa7b154caa451dc2d97ef4d6ad261e02
+
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100755 000000 e4cccb2... 0000000... D	nemu/nemu
+:100644 100644 8e12127... f2c4641... M	nemu/src/memory/.cache.c.swp
+
+commit 917330d7188941b9890a33e460cb355817b3f3af
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 23:21:27 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     23:21:27 up  4:40,  1 user,  load average: 0.56, 0.41, 0.31
+    2d794d35558f999693d0feeaa183d806fab46bf5
+
+:100644 100644 901c3ec... 8e12127... M	nemu/src/memory/.cache.c.swp
+:100644 100644 925db3a... 25468a8... M	nemu/src/memory/cache.c
+
+commit dfc8ada0ae8ddc4e9013004523f157da108267ed
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 23:20:47 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     23:20:47 up  4:40,  1 user,  load average: 0.78, 0.42, 0.31
+    5d57d01c488e92e42e3f7866ce47d4a2911e9558
+
+:100644 100644 04c6436... 901c3ec... M	nemu/src/memory/.cache.c.swp
+:100644 100644 b19be3a... 925db3a... M	nemu/src/memory/cache.c
+
+commit 22691141e8f6ade88fcf7f16cce8d644066cf74d
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 23:20:28 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     23:20:28 up  4:39,  1 user,  load average: 1.09, 0.45, 0.32
+    fe7b1f331c13f7d2262b53408af302319d16e0fd
+
+:100644 100644 e2501b0... 04c6436... M	nemu/src/memory/.cache.c.swp
+:100644 100644 6edf27e... b19be3a... M	nemu/src/memory/cache.c
+
+commit ddf8026c8ee1b5399a15956887ad099e0c306d95
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 23:19:31 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     23:19:31 up  4:38,  1 user,  load average: 0.98, 0.32, 0.27
+    ac37cfd4fb38f36ae05166f9950d5629d7c6ed21
+
+:100644 100644 d00c85f... e2501b0... M	nemu/src/memory/.cache.c.swp
+:100644 100644 c7be0db... 6edf27e... M	nemu/src/memory/cache.c
+
+commit e78ef4e24ad55874abba001a449bde3ba80593fb
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 23:17:59 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     23:17:59 up  4:37,  1 user,  load average: 0.09, 0.17, 0.23
+    2227c2a6a40aad70c7bd5cc1d4f6b15c4458e894
+
+:100644 100644 4968335... d00c85f... M	nemu/src/memory/.cache.c.swp
+:100644 100644 c8dd2a0... c7be0db... M	nemu/src/memory/cache.c
+
+commit ef8c7b2a72123cb819e7e76fa374367ce6173bb9
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 23:17:23 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     23:17:23 up  4:36,  1 user,  load average: 0.17, 0.19, 0.24
+    287abb0643c12b8b4bcaff6cda61e0286dccaca6
+
+:100644 000000 9f061a2... 0000000... D	nemu/include/memory/.cache.h.swp
+:100644 000000 007ee27... 0000000... D	nemu/include/memory/.memory.h.swp
+:100644 100644 aba0bc5... 4968335... M	nemu/src/memory/.cache.c.swp
+:100644 000000 0762872... 0000000... D	nemu/src/memory/.memory.c.swp
+:100644 100644 6881927... c8dd2a0... M	nemu/src/memory/cache.c
+
+commit ae8960f58688205e406aba04f620d94ae436f671
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 20:15:40 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     20:15:40 up  1:34,  1 user,  load average: 0.47, 0.52, 0.29
+    6925690087689b726996e524a4758138626a8453
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+
+commit 95c50fcb3f82f7c2ac4ebe7f49e399e5ce4c3ad5
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 20:15:38 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     20:15:38 up  1:34,  1 user,  load average: 0.47, 0.52, 0.29
+    ff3ab76c4ad0f7d65ae27f8072563a129ffd75d6
+
+:000000 100755 0000000... e4cccb2... A	nemu/nemu
+:100644 100644 4922505... aba0bc5... M	nemu/src/memory/.cache.c.swp
+
+commit 5fd0b1d20a5ed070241857e72223af37b9792fb5
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 20:14:36 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     20:14:36 up  1:33,  1 user,  load average: 0.74, 0.53, 0.27
+    b470a228ed2248bfbba8badc7486855979d34903
+
+:100644 100644 61ff6df... 4922505... M	nemu/src/memory/.cache.c.swp
+:100644 100644 de3ecdf... 6881927... M	nemu/src/memory/cache.c
+
+commit 82960e3073fcdb6cbbbb778d9c6eb654908dd426
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 20:14:11 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     20:14:11 up  1:33,  1 user,  load average: 0.76, 0.52, 0.26
+    537e8c135d7ccda7ecb0f40931bd875dc0ed655e
+
+:100644 100644 9299227... 61ff6df... M	nemu/src/memory/.cache.c.swp
+:100644 100644 839d7fe... de3ecdf... M	nemu/src/memory/cache.c
+
+commit 578606dc84b590e83c8c9e7f48841d93852dd866
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 20:13:41 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     20:13:41 up  1:32,  1 user,  load average: 1.26, 0.58, 0.27
+    fca3e085cc90c557340bbc609c12f33cb0d0edaf
+
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100644 100644 3500376... 9f061a2... M	nemu/include/memory/.cache.h.swp
+:100644 100644 5ad9d63... c0e5ac0... M	nemu/include/memory/cache.h
+:100755 000000 e542ce5... 0000000... D	nemu/nemu
+:100644 100644 e8ef405... 9299227... M	nemu/src/memory/.cache.c.swp
+:100644 100644 fb2790c... 839d7fe... M	nemu/src/memory/cache.c
+
+commit 26d22eddf6c9642a688277b267e09baa9255dd19
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 19:32:47 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     19:32:47 up 52 min,  1 user,  load average: 0.91, 0.46, 0.28
+    79ca0e7c7c435ed9da409c9a21a3d1cb9c1d68
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+
+commit b38d815e4bb3105365be07ceedcd475248119a7d
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 19:32:45 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     19:32:45 up 52 min,  1 user,  load average: 0.90, 0.45, 0.28
+    7fe2235713b6e7e1bd8f4fcb6228aa4c2afbec5
+
+:000000 100755 0000000... e542ce5... A	nemu/nemu
+
+commit 143b81706369bc94044a055dafabdd57f80beca1
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 19:32:24 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     19:32:24 up 51 min,  1 user,  load average: 1.08, 0.44, 0.27
+    11e585b29208b95bbaec3c14da02162aadcaf5d1
+
+:100644 100644 92de6b5... e8ef405... M	nemu/src/memory/.cache.c.swp
+
+commit bcfccf6b4b8395a82885e456f1346282ab2ff362
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 19:31:47 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     19:31:47 up 51 min,  1 user,  load average: 0.50, 0.24, 0.20
+    f002fca545dca5f7a1c557bb94cca5ec5be6fe3
+
+:100644 100644 e85b00a... 92de6b5... M	nemu/src/memory/.cache.c.swp
+:100644 100644 09a5227... fb2790c... M	nemu/src/memory/cache.c
+
+commit 227f3f1ff8c714ae7bf32681470ef4e391bde608
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 19:31:17 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     19:31:17 up 50 min,  1 user,  load average: 0.82, 0.27, 0.21
+    15457631909c068a3e1e482ddfa68826ca3b7eb
+
+:100644 100644 3c2370e... e85b00a... M	nemu/src/memory/.cache.c.swp
+:100644 100644 858cb29... 09a5227... M	nemu/src/memory/cache.c
+
+commit 8c3a8b709ac82f76840723d3b68283184d94bfd2
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 19:11:54 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     19:11:54 up 31 min,  1 user,  load average: 0.10, 0.33, 0.33
+    a81c9f8a217c8f1f4e9d8bbdb4610c338152514f
+
+:000000 100644 0000000... 3500376... A	nemu/include/memory/.cache.h.swp
+:100644 100644 27f78b2... 3c2370e... M	nemu/src/memory/.cache.c.swp
+:100644 100644 678797e... 858cb29... M	nemu/src/memory/cache.c
+
+commit a3d814e34450d7d2ce4541f4e3fcf5c01495843d
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 19:11:01 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     19:11:01 up 30 min,  1 user,  load average: 0.24, 0.39, 0.35
+    68210d4dea7a62118824865ac1aa730467d8249
+
+:100644 100644 45af3f5... 007ee27... R086	nemu/include/memory/.cache.h.swp	nemu/include/memory/.memory.h.swp
+:100644 100644 7c20edb... 5ad9d63... M	nemu/include/memory/cache.h
+:100644 100644 d2a1408... 27f78b2... M	nemu/src/memory/.cache.c.swp
+
+commit 181607bb8cb19ff507670385ad8eb17bd63f2300
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 19:07:14 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     19:07:14 up 26 min,  1 user,  load average: 0.11, 0.15, 0.26
+    2356a469b0608a2c76e50b2bcdb226637df40577
+
+:100644 100644 5a08f25... d2a1408... M	nemu/src/memory/.cache.c.swp
+:100644 100644 858cb29... 678797e... M	nemu/src/memory/cache.c
+
+commit 01caa5e4d50e3c5e65c5a11b20130fbc7ee5499e
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 19:06:01 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     19:06:01 up 25 min,  1 user,  load average: 0.00, 0.13, 0.26
+    ec4281696aa03225925b9e6011dd5c6685e3d7c8
+
+:000000 100644 0000000... 45af3f5... A	nemu/include/memory/.cache.h.swp
+:100644 100644 7d935e3... 7c20edb... M	nemu/include/memory/cache.h
+:100755 100755 acf6695... b0e7103... M	nemu/include/memory/memory.h
+:100644 100644 9d5697b... 5a08f25... M	nemu/src/memory/.cache.c.swp
+:100644 100644 0d2a79d... 858cb29... M	nemu/src/memory/cache.c
+
+commit f9e7f6e209f4216b630bbb93e3934bfa0799d9c9
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 19:05:06 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     19:05:05 up 24 min,  1 user,  load average: 0.00, 0.16, 0.28
+    1578d9a6f73ebd3019079f347006b0fb36aa819
+
+:100755 100755 b0e7103... acf6695... M	nemu/include/memory/memory.h
+
+commit 96c274adf25de1a466ca685825449608fe4c34d2
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 19:04:33 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     19:04:33 up 23 min,  1 user,  load average: 0.01, 0.18, 0.29
+    6971b5f5b64b0cf15a862a9b31c45994d3c7b5
+
+:100644 100644 7c20edb... 7d935e3... M	nemu/include/memory/cache.h
+:100755 100755 acf6695... b0e7103... M	nemu/include/memory/memory.h
+
+commit 9df589764fbeb5c68daa2d8f13ee5d62f02134c8
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 19:03:57 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     19:03:57 up 23 min,  1 user,  load average: 0.01, 0.21, 0.30
+    75aac8fae96235f0387f4adc429b8bfdfddc43e
+
+:100755 100755 b0e7103... acf6695... M	nemu/include/memory/memory.h
+:100644 100644 6acbd76... 0762872... R081	nemu/include/memory/.cache.h.swp	nemu/src/memory/.memory.c.swp
+
+commit bd87c846c483c1cfafa595335bc856bd0fe3ab59
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 18:59:36 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     18:59:36 up 18 min,  1 user,  load average: 0.85, 0.47, 0.40
+    af6f1d0acb0ad59efb84cad876850b63208428a
+
+:000000 100644 0000000... 6acbd76... A	nemu/include/memory/.cache.h.swp
+
+commit b143933f6800ca1ad7431ee9a94416b3de80ea3a
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 18:59:07 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     18:59:07 up 18 min,  1 user,  load average: 0.96, 0.45, 0.39
+    94c5b3464b1a31178c71612e7a4703ade4659294
+
+:100644 100644 e830646... 9d5697b... M	nemu/src/memory/.cache.c.swp
+:100644 000000 8d3d766... 0000000... D	nemu/src/memory/.memory.c.swp
+:100644 100644 db3f80a... 0d2a79d... M	nemu/src/memory/cache.c
+
+commit 04fab7b71eaa74bfc94d9def06d4ab9ea683cfe4
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 18:57:59 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     18:57:59 up 17 min,  1 user,  load average: 0.31, 0.31, 0.35
+    8c7b2140e2e1fd8a24e58f2cb4c296a6cdcada2b
+
+:100644 100644 982d92f... e830646... M	nemu/src/memory/.cache.c.swp
+
+commit e2647550754287241061677256a5da963677cb70
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 18:56:58 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     18:56:58 up 16 min,  1 user,  load average: 0.05, 0.30, 0.35
+    a294b650bb07bc791582516d8487d339d3487b1
+
+:100644 100644 1fbece4... 982d92f... M	nemu/src/memory/.cache.c.swp
+:100644 100644 b8d8fa7... 8d3d766... M	nemu/src/memory/.memory.c.swp
+:100644 100644 03f0f08... db3f80a... M	nemu/src/memory/cache.c
+
+commit 5bf66740ab8b369da3a5aa24fb9c229313b254a7
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 18:55:54 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     18:55:54 up 15 min,  1 user,  load average: 0.13, 0.37, 0.38
+    7b920a3b383930e5f013e93d95b7e2d2384765fe
+
+:100644 100644 f651977... 1fbece4... M	nemu/src/memory/.cache.c.swp
+
+commit d7a6b5d736efaceb51b0cffd046c819f785e8817
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 18:55:51 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     18:55:51 up 15 min,  1 user,  load average: 0.14, 0.38, 0.38
+    509b8b9e2814023e45ae3bef6c393b02528f4cea
+
+:100644 000000 424c323... 0000000... D	nemu/include/memory/.cache.h.swp
+:100644 100644 2a28975... f651977... M	nemu/src/memory/.cache.c.swp
+:100644 100644 1a6f4a8... 03f0f08... M	nemu/src/memory/cache.c
+
+commit f3dac5563bb668f58762eeee0734c6a32278cf72
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 18:54:53 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     18:54:53 up 14 min,  1 user,  load average: 0.05, 0.40, 0.39
+    cd274d46ccd2e05aea4473b41db010e75a15c181
+
+:000000 100644 0000000... 2a28975... A	nemu/src/memory/.cache.c.swp
+:100644 100644 563f4eb... 1a6f4a8... M	nemu/src/memory/cache.c
+
+commit aade8491369a79970b64fe14bdde36b5506969c6
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 18:54:11 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     18:54:11 up 13 min,  1 user,  load average: 0.10, 0.45, 0.41
+    19bf4d4c82481735aeaf7268584cc2338bca06
+
+:000000 100644 0000000... b8d8fa7... A	nemu/src/memory/.memory.c.swp
+:100644 100644 42850d6... 563f4eb... M	nemu/src/memory/cache.c
+
+commit 58e138ac6b9bcf468bb9cee30788a077b6bedcc6
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 27 18:50:56 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     18:50:56 up 10 min,  1 user,  load average: 1.71, 0.79, 0.49
+    6e0176beb300da8634f0f2d99cd8cb9dcad944ac
+
+:000000 100644 0000000... 424c323... A	nemu/include/memory/.cache.h.swp
+:100644 100644 2bb8d47... 7c20edb... M	nemu/include/memory/cache.h
+:100644 100644 8386b8f... 42850d6... M	nemu/src/memory/cache.c
+:100755 100755 5cb9c8e... c7cd0e9... M	nemu/src/memory/memory.c
+
+commit d181dfc6152354beabc3352ce58fd8bb60cb9c55
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Fri Nov 24 08:35:46 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:35:46 up 18 min,  1 user,  load average: 0.06, 0.11, 0.13
+    4bc8218fb8c5b77bbae68b65c33357f7862ab67
+
+:100644 100644 b9f103a... 8386b8f... M	nemu/src/memory/cache.c
+
+commit 68979f625fbe6c8d1027095a14922a314d819a29
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Fri Nov 24 08:35:01 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:35:01 up 18 min,  1 user,  load average: 0.13, 0.13, 0.14
+    2af57bb9b230fdfc268cff7284e8c7e2e029ba7
+
+:100644 000000 955fd36... 0000000... D	nemu/src/memory/.memory.c.swp
+:000000 100644 0000000... b9f103a... A	nemu/src/memory/cache.c
+
+commit 74f06212589864f87bc1169124aaf3088763ee39
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Fri Nov 24 08:31:26 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:31:26 up 14 min,  1 user,  load average: 0.00, 0.09, 0.14
+    e0483f39dc59c19e77825bcef2000eead2159228
+
+:100644 100644 21f367b... 2bb8d47... M	nemu/include/memory/cache.h
+
+commit dbd6217ed30a9e528517f6b82a12a952a289f8d7
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Fri Nov 24 08:29:50 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:29:50 up 13 min,  1 user,  load average: 0.01, 0.13, 0.15
+    37ab707f59e01a3657948926dcc3159f5e93d827
+
+:000000 100644 0000000... 955fd36... A	nemu/src/memory/.memory.c.swp
+:100755 100755 659acf6... 5cb9c8e... M	nemu/src/memory/memory.c
+
+commit c3453415ecd614df2fb9de0d4d6730a22a43c77a
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Fri Nov 24 08:28:56 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:28:56 up 12 min,  1 user,  load average: 0.04, 0.16, 0.16
+    efd40c1426b2da30a025af083e3e9d153ebcba83
+
+:100755 100755 b66464e... 659acf6... M	nemu/src/memory/memory.c
+
+commit ea73f941d3855da005aed7c9fc09579880ff56ea
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Fri Nov 24 08:27:28 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:27:28 up 10 min,  1 user,  load average: 0.10, 0.20, 0.18
+    69824d2d2193c49a679fd63e78d769b1bb7ed6e4
+
+:100755 100755 2047e12... b66464e... M	nemu/src/memory/memory.c
+
+commit 1c9177e528028138ab8fd50304cfed421d483b68
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Fri Nov 24 08:26:25 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:26:25 up 9 min,  1 user,  load average: 0.13, 0.23, 0.18
+    9399457412bfdee95e0845eb58073004f32273b
+
+:100755 100755 745f435... 2047e12... M	nemu/src/memory/memory.c
+
+commit 6579aad3af009f5bb17b58e0065e16ba0fa0a159
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Fri Nov 24 08:25:12 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:25:12 up 8 min,  1 user,  load average: 0.05, 0.25, 0.19
+    16350d3e58d10f7be1aa730bc95946ddab645330
+
+:000000 100644 0000000... 21f367b... A	nemu/include/memory/cache.h
+:100755 100755 c3b4c7b... b0e7103... M	nemu/include/memory/memory.h
+
+commit a9511aecad3f5dd494a3f52636600dc5c1351391
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Fri Nov 24 03:33:34 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     03:33:34 up 11 min,  1 user,  load average: 0.01, 0.18, 0.21
+    97b2359cacf80c771f5ca07e2f7b5b265674d7bb
+
+:100755 100755 eca0912... c3b4c7b... M	nemu/include/memory/memory.h
+
+commit 47fab33c867af69b9b01bf5b211d5834a2d1bf3c
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Fri Nov 24 03:32:54 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     03:32:54 up 10 min,  1 user,  load average: 0.03, 0.21, 0.22
+    84f5382566115756f7590febc598a764fd1e6f52
+
+:100755 100755 ffb6880... eca0912... M	nemu/include/memory/memory.h
+
+commit 3fdec3166d244737859fa6ca848b3c36d7f02a70
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Fri Nov 24 03:31:48 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     03:31:48 up 9 min,  1 user,  load average: 0.10, 0.27, 0.24
+    56dee5f89a4f44ef220299d668d925e3839be08d
+
+:000000 100644 0000000... 7e2e748... A	".~lock.161220096PA1\345\256\236\351\252\214\346\212\245\345\221\212.docx#"
+:000000 100644 0000000... 87cd615... A	".~lock.161220096PA2\345\256\236\351\252\214\346\212\245\345\221\212.docx#"
+:000000 100755 0000000... e07cfab... A	"161220096PA2\345\256\236\351\252\214\346\212\245\345\221\212.docx"
+:000000 100755 0000000... 8e1d798... A	Q1.txt
+:000000 100755 0000000... b988565... A	Q2 .txt
+:000000 100755 0000000... 922d24e... A	Q3 .txt
+:100755 100755 1e41140... c215c78... M	include/config.h
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100755 100755 b0e7103... ffb6880... M	nemu/include/memory/memory.h
+:100755 000000 0ac9d3c... 0000000... D	nemu/nemu
+:100755 100755 5471db7... 745f435... M	nemu/src/memory/memory.c
+
+commit dc5d00a58c534f5c45e4d225aae09ab93f9fb9c4
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Thu Nov 23 09:20:08 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     09:20:08 up 18 min,  1 user,  load average: 0.09, 0.10, 0.17
+    3f343d11c4a4085c311576f9a6b7c44035b668aa
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+
+commit 0b2caa8d7427a18f342b6aed2a77350ba67d1b62
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Thu Nov 23 08:46:55 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:46:55 up 6 min,  1 user,  load average: 0.41, 0.63, 0.36
+    838ae50536cddf45c83a6636e6d798b673228009
+
+:000000 100755 0000000... 0ac9d3c... A	nemu/nemu
+
+commit db41e953ba7fb6365042404765a4f0619f2a317a
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Thu Nov 23 08:46:31 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:46:31 up 5 min,  1 user,  load average: 0.20, 0.61, 0.35
+    7b408514fd67a410c0c83423c4bcbe5ececd3aff
+
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100755 000000 0ac9d3c... 0000000... D	nemu/nemu
+
+commit b4a7c25e85ce9c7156aa60c2866e23aae73bb820
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Thu Nov 23 08:44:55 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:44:55 up 4 min,  1 user,  load average: 0.68, 0.79, 0.37
+    3d9bc25db1e9476f2159ce9fde4d7798d037525a
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+
+commit 6af83d236ee3990051387102b9cbb2bf8a35e3b0
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Thu Nov 23 08:44:50 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:44:50 up 3 min,  1 user,  load average: 0.65, 0.78, 0.36
+    9e1bb91cc380648e6d56f61bb440bb3962aeade6
+
+:000000 100755 0000000... 0ac9d3c... A	nemu/nemu
+
+commit 8898521e2d57e385cc8e151761f3a574736aadc1
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Thu Nov 23 08:44:14 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:44:14 up 3 min,  1 user,  load average: 0.77, 0.81, 0.36
+    b0b52392b6627f4cb96e54d547d4db1d2fb8d2b1
+
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100755 000000 0ac9d3c... 0000000... D	nemu/nemu
+
+commit 993e69a536a30b91d292936fcdb0838b46facf94
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Thu Nov 23 07:00:49 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     07:00:49 up  1:37,  1 user,  load average: 0.76, 0.74, 0.38
+    8d4192f4891464f418b705f27df9217458aae13
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+:000000 100755 0000000... 0ac9d3c... A	nemu/nemu
+
+commit 884bb84fd89a0c7db052e0150343aae19dcbd5b1
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Thu Nov 23 07:00:35 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     07:00:35 up  1:37,  1 user,  load average: 0.69, 0.73, 0.37
+    239983cfdf16f99fd415e4c27fff5c7f4d6bb88a
+
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100755 000000 0ac9d3c... 0000000... D	nemu/nemu
+
+commit 550176ca93da844580f1575b088cbc7413fdb451
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Thu Nov 23 06:46:11 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     06:46:11 up  1:22,  1 user,  load average: 0.27, 0.18, 0.12
+    5d3b5e141d91d2d91dc0d628982529d236a609
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+
+commit 4f6432f9e90e6244718cf2d695b7fc8b6b0cd980
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Thu Nov 23 06:46:08 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     06:46:08 up  1:22,  1 user,  load average: 0.27, 0.18, 0.12
+    ffa1062890eb18b13b8ada0456f0fd6442213fac
+
+:000000 100755 0000000... 0ac9d3c... A	nemu/nemu
+
+commit 4f083e0e0fee38e1d9f40fc2b4514930a44156d7
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Thu Nov 23 06:44:52 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     06:44:52 up  1:21,  1 user,  load average: 0.20, 0.10, 0.09
+    563dd0107988a460fa1727942706f909cef48b5d
+
+:100755 000000 0ac9d3c... 0000000... D	nemu/nemu
+
+commit 93e4e3b2b965c93a164853bb4d25b5d893394e89
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Thu Nov 23 06:43:20 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     06:43:20 up  1:19,  1 user,  load average: 0.03, 0.04, 0.07
+    564d6b29d49fa98d30d1a8d627d6aed5d4f373f8
+
+:000000 100755 0000000... 0ac9d3c... A	nemu/nemu
+
+commit 7a3d25a7efa66289c28398958a8b79f48651bd67
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Thu Nov 23 06:08:19 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     06:08:19 up 44 min,  1 user,  load average: 0.17, 0.20, 0.19
+    538592df8a6bbed4854f3b0bca7fcdfbbb28c958
+
+:100755 000000 6cfa564... 0000000... D	nemu/nemu
+:100644 100644 6d9dcf8... 23de556... M	nemu/src/cpu/instr/add.c
+:100644 100644 4ac5bb1... 702337f... M	nemu/src/cpu/instr/sub.c
+
+commit 7704a9b1274985aca2dda0a4bffed2e6bfad0681
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Thu Nov 23 06:07:17 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     06:07:17 up 43 min,  1 user,  load average: 0.30, 0.22, 0.21
+    e1631c6d8a4d848564fbb90b1fb8117931cec3c
+
+:000000 100755 0000000... 6cfa564... A	nemu/nemu
+:100644 100644 702337f... 4ac5bb1... M	nemu/src/cpu/instr/sub.c
+
+commit 58930c2674b1fc3a63df7b8c78446b43019a0e58
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Thu Nov 23 06:06:42 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     06:06:42 up 43 min,  1 user,  load average: 0.15, 0.18, 0.19
+    a495bd28f86d63be15ea207b74941e07fa73a923
+
+:100755 000000 0ac9d3c... 0000000... D	nemu/nemu
+
+commit c2d4b453fe16b8b65a741f02ea578a5d88ed8f89
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Thu Nov 23 06:06:38 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     06:06:38 up 43 min,  1 user,  load average: 0.16, 0.18, 0.19
+    5581d03ae0aa5e18250435184540dc4c5d64d342
+
+:100644 100644 23de556... 6d9dcf8... M	nemu/src/cpu/instr/add.c
+
+commit 3198f127e0252b6eb14848e6254bbcf0a7f2571a
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Thu Nov 23 05:56:03 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     05:56:03 up 32 min,  1 user,  load average: 0.29, 0.17, 0.17
+    d886a4c677a7070f77742810ac1a303420851d51
+
+:000000 100755 0000000... 0ac9d3c... A	nemu/nemu
+
+commit 10a542768ec215dda59893b905440e7de95a7a99
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Thu Nov 23 05:55:04 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     05:55:04 up 31 min,  1 user,  load average: 0.54, 0.17, 0.17
+    ebbda78a9489be75a6b1553feff597f32c78bbec
+
+:100755 000000 1fb7b0f... 0000000... D	kernel/kernel
+:100755 000000 325b00e... 0000000... D	kernel/kernel.img
+:100755 000000 0ac9d3c... 0000000... D	nemu/nemu
+
+commit 5314ddbaae6f3cfc8d68c621e00890e8cdca0553
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Thu Nov 23 05:35:57 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     05:35:57 up 12 min,  1 user,  load average: 0.16, 0.38, 0.29
+    936ed094b2b8599c65236fba7f1697a2a754963e
+
+:000000 100755 0000000... 1fb7b0f... A	kernel/kernel
+:000000 100755 0000000... 325b00e... A	kernel/kernel.img
+
+commit 168557409736356dcd3b8ce99df9c6c4bc51a0b7
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Thu Nov 23 05:35:53 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     05:35:53 up 12 min,  1 user,  load average: 0.16, 0.38, 0.29
+    9a124d5ea917374d82a40964cfe791b17b033fd
+
+:000000 100755 0000000... 0ac9d3c... A	nemu/nemu
+
+commit e9b6899bbdbb9cad22bb1e838e2d9554e69d5f90
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Thu Nov 23 05:34:53 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     05:34:53 up 11 min,  1 user,  load average: 0.25, 0.43, 0.31
+    e2385c83651f12ead005e5b0e6b343863073abc2
+
+:100755 100755 77b39c3... 38d4f0e... M	kernel/src/elf/elf.c
+:100755 000000 0ac9d3c... 0000000... D	nemu/nemu
+
+commit f549d9d0d97d3bda13c2e61da79a5f1a7e55a2d5
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Thu Nov 23 05:33:11 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     05:33:11 up 9 min,  1 user,  load average: 0.57, 0.51, 0.31
+    7027eb00521bca01835577aa536a15fc10e91526
+
+:000000 100755 0000000... 0ac9d3c... A	nemu/nemu
+
+commit c56d102a37d6dcf56f811c4e91024fdc699d4fe1
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Thu Nov 23 05:32:25 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     05:32:25 up 8 min,  1 user,  load average: 0.74, 0.51, 0.30
+    e973fe9f561658b23d8b98fd88689c95a7df14db
+
+:100755 000000 b14bfeb... 0000000... D	kernel/kernel
+:100755 000000 fe7c836... 0000000... D	kernel/kernel.img
+:100755 000000 0ac9d3c... 0000000... D	nemu/nemu
+
+commit e48197d930565cf06ee584b1d6d159afad0bfd96
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Thu Nov 23 05:31:49 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     05:31:49 up 8 min,  1 user,  load average: 0.20, 0.38, 0.25
+    5132aa63b5c506d49fac9b6d9ab9f17e37656515
+
+:100755 100755 d57c81d... 77b39c3... M	kernel/src/elf/elf.c
+
+commit f40575038c7ac34af21b63ec61967019a9827451
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Wed Nov 22 11:42:20 2017 -0500
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     11:42:20 up  1:16,  1 user,  load average: 0.23, 0.16, 0.10
+    2b13a1783d3382fe842434884f61841b04bfc98
+
+:000000 100755 0000000... b14bfeb... A	kernel/kernel
+:000000 100755 0000000... fe7c836... A	kernel/kernel.img
+
+commit 6a0cc033dd79e7c938d9bb9bd1c30f0df2c90365
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Wed Nov 22 11:42:05 2017 -0500
+
+    >  test
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     11:42:05 up  1:16,  1 user,  load average: 0.18, 0.14, 0.09
+    db7748ed3affdbb59a5f8fa45be407b810fde61c
+
+:100755 100755 cc3c7a9... 0ac9d3c... M	nemu/nemu
+
+commit e6f30b677e96a2273f2e1e02118c1d5218d8cd0b
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Wed Nov 22 11:42:05 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     11:42:05 up  1:16,  1 user,  load average: 0.11, 0.13, 0.09
+    ec1250604b3320287e222e189c15be569585f02e
+
+:100755 100755 935e912... e7f43bf... M	nemu/src/cpu/cpu.c
+
+commit 92f510a867f1d2b6ff8967cd87ae9419127a9511
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Wed Nov 22 08:53:54 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:53:54 up 43 min,  1 user,  load average: 0.27, 0.18, 0.11
+    762419a228dcc7641f76b0b66dd1c5bd170a21f8
+
+:000000 100755 0000000... cc3c7a9... A	nemu/nemu
+
+commit ce7f795977488fd5686e968797740f569c06622e
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Wed Nov 22 08:53:28 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:53:28 up 43 min,  1 user,  load average: 0.05, 0.13, 0.09
+    3892dc64b19ddb863460950de3d8acd9815a1a0
+
+:100755 000000 d2d35f2... 0000000... D	nemu/nemu
+:100644 000000 34cce3b... 0000000... D	nemu/src/cpu/.cpu.c.swp
+:100755 100755 7717126... 935e912... M	nemu/src/cpu/cpu.c
+:100644 000000 6de836a... 0000000... D	nemu/src/cpu/instr/.push.c.swp
+
+commit d4d6edea2e88034e60cd3594405d3a1484467cb2
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Wed Nov 22 08:34:33 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:34:33 up 24 min,  1 user,  load average: 0.13, 0.10, 0.10
+    edf7581d20195abc42b8ce1bfa3cca0777291dfa
+
+:000000 100755 0000000... d2d35f2... A	nemu/nemu
+
+commit 3ea1f369198eac1ace71c31891d24f5cb1926bc8
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Wed Nov 22 08:33:17 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:33:17 up 23 min,  1 user,  load average: 0.20, 0.09, 0.10
+    b2d9f89884e97a97852efa22b9d8603a9e1c379
+
+:100755 000000 0ac9d3c... 0000000... D	nemu/nemu
+:100644 100644 8146d8b... 34cce3b... M	nemu/src/cpu/.cpu.c.swp
+:100755 100755 a33d071... 7717126... M	nemu/src/cpu/cpu.c
+:000000 100644 0000000... 6de836a... A	nemu/src/cpu/instr/.push.c.swp
+
+commit 92ee97235b07e298bc4146b694ef3fdef643049f
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Wed Nov 22 08:14:05 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:14:05 up 4 min,  1 user,  load average: 0.32, 0.56, 0.27
+    49a9b31cebe31545658ecd8ede3da723f59706eb
+
+:100755 100755 0fa4c6e... 0ac9d3c... M	nemu/nemu
+:000000 100644 0000000... 8146d8b... A	nemu/src/cpu/.cpu.c.swp
+:100644 000000 557a0ce... 0000000... D	nemu/src/monitor/.expr.c.swp
+
+commit f4e99adb074f15740f263ef8c9f104ba55ebb611
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 10:06:18 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     10:06:18 up 52 min,  1 user,  load average: 0.08, 0.09, 0.08
+    7ad8c208d64f5c0ccadc2a6dcee5e5fa26ef5a9d
+
+:100644 100644 6c3a8ff... 557a0ce... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 953da39... ec26202... M	nemu/src/monitor/expr.c
+
+commit c0ebb13ffd3a173538e4919cd4f948690c4a156a
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 10:05:38 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     10:05:38 up 52 min,  1 user,  load average: 0.16, 0.10, 0.09
+    ca5f543542fb6e73c1a54e512adbb2c0f1c920a9
+
+:100644 100644 615006b... 6c3a8ff... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 8de940c... 953da39... M	nemu/src/monitor/expr.c
+
+commit 838f2075554872d3be60e85e65b58e83daba55ec
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 10:04:52 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     10:04:52 up 51 min,  1 user,  load average: 0.08, 0.08, 0.08
+    306d971d119af8a936bb0d092f46865cf0c51c24
+
+:100755 100755 251378f... 0fa4c6e... M	nemu/nemu
+
+commit e80b600564bd7cc1a783944593e85b52ea6e5986
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 10:04:31 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     10:04:30 up 50 min,  1 user,  load average: 0.01, 0.07, 0.08
+    26a758c75d16baed8a1ab26e1c582681d24bcf98
+
+:100755 100755 0d0e64f... 251378f... M	nemu/nemu
+:000000 100644 0000000... 615006b... A	nemu/src/monitor/.expr.c.swp
+:100755 100755 ca89542... 8de940c... M	nemu/src/monitor/expr.c
+
+commit fbde1ce3d46903b1aa02337cb397e3e9543eab65
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 09:59:29 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     09:59:29 up 45 min,  1 user,  load average: 0.13, 0.08, 0.08
+    16ff5d296f2af2fe4811f4dbc7ccf44425cc8fc
+
+:100755 100755 ff8a944... ca89542... M	nemu/src/monitor/expr.c
+
+commit da381256bf2bcf520120bb9fb40fe3a3ee5874d0
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 09:58:06 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     09:58:06 up 44 min,  1 user,  load average: 0.00, 0.04, 0.07
+    16150ca217c952ce4162652be112fa96b85e12b5
+
+:100755 100755 9eb68c1... 0d0e64f... M	nemu/nemu
+:100755 100755 81031a4... ff8a944... M	nemu/src/monitor/expr.c
+
+commit c5007d47e767698de4dcad703d0ed1a162e9fc02
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 09:57:25 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     09:57:25 up 43 min,  1 user,  load average: 0.01, 0.05, 0.07
+    7b1af9fa8e30663aeaff0d41302efeeefd61e08f
+
+:100755 100755 ccd6506... 9eb68c1... M	nemu/nemu
+:100755 100755 f7860c7... 81031a4... M	nemu/src/monitor/expr.c
+
+commit 7df7d894f6dc495f9de996a57a117b1e29057b2d
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 09:56:19 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     09:56:19 up 42 min,  1 user,  load average: 0.03, 0.06, 0.08
+    a2a92592adb6395a8d8f5601f93df73f3fa194
+
+:100755 100755 a16c364... f7860c7... M	nemu/src/monitor/expr.c
+
+commit 1a3ad7190c221955843c8a7cb48f0d4356555c23
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 09:55:38 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     09:55:38 up 42 min,  1 user,  load average: 0.06, 0.07, 0.08
+    4adaffbf5e75dc7347d36e8fd6e5b9188abb940e
+
+:100755 100755 45801a3... ccd6506... M	nemu/nemu
+:100755 100755 e8fb01f... a16c364... M	nemu/src/monitor/expr.c
+
+commit dda132215cf49fc684c0f1d53afa6a87b4402e60
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 09:53:27 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     09:53:27 up 39 min,  1 user,  load average: 0.07, 0.05, 0.07
+    1f87368a72f9ae92d9e1c2d4d9baf106b29bb426
+
+:100755 100755 0467229... 45801a3... M	nemu/nemu
+:100644 000000 7ccbcdc... 0000000... D	nemu/src/monitor/.expr.c.swp
+:100755 100755 3cc9dd2... e8fb01f... M	nemu/src/monitor/expr.c
+
+commit 2e618c849567965b1f9655d64d1b307e70f61e6a
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 09:35:58 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     09:35:58 up 22 min,  1 user,  load average: 0.00, 0.02, 0.10
+    d87f2dc181f58b8d536a9f73f4d88f386e67a989
+
+:100755 100755 c6a98d5... 0467229... M	nemu/nemu
+:100644 100644 7aa4a6b... 7ccbcdc... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 6f29f70... 3cc9dd2... M	nemu/src/monitor/expr.c
+
+commit 7cabc09b4c9eecce9917566e6f047a162f581d47
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 09:29:24 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     09:29:24 up 15 min,  1 user,  load average: 0.00, 0.10, 0.17
+    6bcd1472e36abfcca29a96555377619acd8ac6e1
+
+:100755 100755 6eb3188... c6a98d5... M	nemu/nemu
+:000000 100644 0000000... 7aa4a6b... A	nemu/src/monitor/.expr.c.swp
+:100755 100755 a5e6725... 6f29f70... M	nemu/src/monitor/expr.c
+
+commit c5d2e8f1c64e35df87a400c39a2bbf11f181b57e
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 09:19:32 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     09:19:32 up 5 min,  1 user,  load average: 0.12, 0.45, 0.29
+    52e46b13968c42ba27d9e596bc9f4611ab93fa9a
+
+:100755 100755 6001cdc... 6eb3188... M	nemu/nemu
+:100644 000000 9ddf91d... 0000000... D	nemu/src/memory/.memory.c.swp
+:100755 100755 c164a40... a5e6725... M	nemu/src/monitor/expr.c
+
+commit cb26d4f749b3f1e217a0280613961b2e2217f88a
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 07:51:32 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     07:51:32 up 12 min,  1 user,  load average: 0.04, 0.22, 0.23
+    b4651f6e2c8257d7c56ddb47f0d45181c9a3619c
+
+:100755 100755 83d68e3... 6001cdc... M	nemu/nemu
+:000000 100644 0000000... 9ddf91d... A	nemu/src/memory/.memory.c.swp
+:100755 100755 8b74cdc... c164a40... M	nemu/src/monitor/expr.c
+
+commit 0f49e5851ea030b8b90d6da4548dbb8121d064e0
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 07:48:19 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     07:48:19 up 9 min,  1 user,  load average: 0.34, 0.34, 0.26
+    3d00ba00cdd47484d71c412ec8954e61fbfefef
+
+:100644 100644 670baa0... 82dcdcb... M	nemu/include/monitor/my_elf.h
+:100755 100755 83da11b... 412a80e... M	nemu/src/monitor/elf.c
+:100755 100755 cc39ee0... 8b74cdc... M	nemu/src/monitor/expr.c
+
+commit e93e5832038478d6685f40ccefc67db80b8f6e96
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 07:43:37 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     07:43:37 up 4 min,  1 user,  load average: 0.70, 0.61, 0.30
+    5af17f4ef9247a5fad6b08af6d11355b7689ef6
+
+:000000 100755 0000000... 83d68e3... A	nemu/nemu
+
+commit 55a5d8e4423455074bafbca6e70c0d09bcd20c21
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 07:43:17 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     07:43:17 up 4 min,  1 user,  load average: 0.18, 0.51, 0.27
+    9bcaf053b51fcb073f1d6f3c053ff6ed0766eb9
+
+:100755 000000 83d68e3... 0000000... D	nemu/nemu
+
+commit 6ff3b4a3728e013df0f91058f6871cc2a5f57135
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 07:41:23 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     07:41:23 up 2 min,  1 user,  load average: 0.83, 0.70, 0.29
+    d47f5af3e241eca3820732ca6f4c3d3e63e82d9
+
+:100755 100755 c756987... 83d68e3... M	nemu/nemu
+
+commit c18b22272e91e8db32a487f164b63de98f7ba266
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 07:41:17 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     07:41:17 up 2 min,  1 user,  load average: 0.90, 0.71, 0.29
+    14e87d42638941d173956c052003065927f353
+
+:100755 100755 36ce902... a33d071... M	nemu/src/cpu/cpu.c
+
+commit 449fe116a8e6da1adf3b87eab110b0ea7d11442d
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 06:07:02 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     06:07:02 up  2:35,  1 user,  load average: 0.08, 0.07, 0.10
+    6a9feef84196af5a707704db975bb56233c64c47
+
+:100755 100755 6ca3680... c756987... M	nemu/nemu
+
+commit 09a1d5ae9c76351f97fcfddda27b933b7a0fdac2
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 06:06:58 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     06:06:58 up  2:35,  1 user,  load average: 0.08, 0.07, 0.10
+    9ec19bbd16692d9bcba5ce2a9da3dc14c084b652
+
+:100644 000000 4d66fb5... 0000000... D	nemu/src/monitor/.expr.c.swp
+:100755 100755 c9ae1fb... 83da11b... M	nemu/src/monitor/elf.c
+
+commit 46a4b975811e41405b5ece4c2c49900b2d6d1965
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 05:43:27 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     05:43:27 up  2:12,  1 user,  load average: 0.53, 0.26, 0.19
+    a5da0f33fcd767aef5f3731bae30b6d28dd699fe
+
+:100644 000000 3a7677f... 0000000... D	nemu/include/cpu/instr/.mov.h.swp
+:000000 100755 0000000... 6ca3680... A	nemu/nemu
+:100644 100644 8fb49c9... 4d66fb5... M	nemu/src/monitor/.expr.c.swp
+
+commit a006630efdf9fe68228075308720d53c9bba23d2
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 05:40:25 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     05:40:24 up  2:09,  1 user,  load average: 0.01, 0.08, 0.12
+    90dc97ccaf17ef358772c15f29e86a4bc326f5d8
+
+:000000 100644 0000000... 3a7677f... A	nemu/include/cpu/instr/.mov.h.swp
+:000000 100644 0000000... 670baa0... A	nemu/include/monitor/my_elf.h
+:100644 100644 e6615bf... 8fb49c9... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 08496f0... cc39ee0... M	nemu/src/monitor/expr.c
+
+commit 1a46e4c1b3a3bee3aad410f1ebf128c8016e9746
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 05:17:29 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     05:17:29 up  1:56,  1 user,  load average: 0.02, 0.14, 0.15
+    f8920c28e0983998cbdd518f96afedf18f5e35
+
+:100644 100644 61dcdb6... e6615bf... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 3bcd0fc... 08496f0... M	nemu/src/monitor/expr.c
+
+commit e7d8abb2010361c23ba0b9ff000e85a30fe3a720
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 05:14:21 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     05:14:21 up  1:52,  1 user,  load average: 0.23, 0.24, 0.17
+    4ef0f47380e75ebd2bd72566d72574144d851a1
+
+:100644 100644 b2172c7... 61dcdb6... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 a82ae3f... 3bcd0fc... M	nemu/src/monitor/expr.c
+
+commit 966fff6fc6ed7a781a7de5a1741c042b689d4f38
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 05:14:04 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     05:14:04 up  1:52,  1 user,  load average: 0.29, 0.26, 0.18
+    1c33a94c182612b343eed3aba184c8416d3195a4
+
+:100644 100644 040fcdf... b2172c7... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 41d9dd7... a82ae3f... M	nemu/src/monitor/expr.c
+
+commit 42a234be021f7e5b21ad1e10b1e9fbeb2c8faeea
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 05:13:21 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     05:13:21 up  1:51,  1 user,  load average: 0.29, 0.26, 0.17
+    8f4dffa8ab80b4e8a52fac18a40ba3f741bae0b
+
+:100644 100644 5d34c22... 040fcdf... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 d3576b0... 41d9dd7... M	nemu/src/monitor/expr.c
+
+commit 0cedeaa6c86b1d3758355b1ee55a325a3d0ccc8e
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 05:11:40 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     05:11:40 up  1:50,  1 user,  load average: 0.48, 0.30, 0.18
+    db5c6724a20bb42398ab192823e2975bf4076889
+
+:100755 000000 b14bfeb... 0000000... D	kernel/kernel
+:100755 000000 fe7c836... 0000000... D	kernel/kernel.img
+:100755 000000 4d3bde0... 0000000... D	nemu/nemu
+:100644 100644 20d3d1d... 5d34c22... M	nemu/src/monitor/.expr.c.swp
+
+commit 537a7b5596eb19d500f1d4ee79a2f35b0a5926da
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 05:11:11 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     05:11:11 up  1:49,  1 user,  load average: 0.31, 0.26, 0.16
+    2c2474d53a122c1c8d81bb5d8fca9d98ce0317
+
+:100644 100644 0f2503e... 20d3d1d... M	nemu/src/monitor/.expr.c.swp
+
+commit 93674a24132365bfdc1e4ec4d250b60f5af5516b
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 05:10:42 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     05:10:42 up  1:49,  1 user,  load average: 0.47, 0.29, 0.16
+    a1fffa698b64f1dc2367ea12b85bd955ffb175fe
+
+:100644 100644 0c07c9f... 0f2503e... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 b302cb9... d3576b0... M	nemu/src/monitor/expr.c
+
+commit 5654344b00e87be89b04b12f50c9585d2824fb08
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 05:09:48 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     05:09:48 up  1:48,  1 user,  load average: 0.13, 0.19, 0.13
+    543277506149ee8ef864e382f1e14484c74c9f00
+
+:100755 100755 1b9a166... 4d3bde0... M	nemu/nemu
+:100644 100644 14f7d32... 0c07c9f... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 14b4399... b302cb9... M	nemu/src/monitor/expr.c
+
+commit a66cff5e816575e5fe551d62ecb0fe9288746872
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 04:40:12 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     04:40:12 up  1:18,  1 user,  load average: 0.00, 0.10, 0.08
+    1671378da4a0552db824b1dfeb66c829f3a302
+
+:000000 100644 0000000... 14f7d32... A	nemu/src/monitor/.expr.c.swp
+:100755 100755 20d7fb6... 14b4399... M	nemu/src/monitor/expr.c
+
+commit e0aaa8d0cca8f76387eeabb929bc4c639003b9f9
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 04:29:57 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     04:29:57 up  1:08,  1 user,  load average: 0.53, 0.20, 0.07
+    5afd633e751f5c655137d94554ade1cdddc3c00a
+
+:100755 100755 2838f7f... 1b9a166... M	nemu/nemu
+:100644 000000 abfddff... 0000000... D	nemu/src/monitor/.expr.c.swp
+
+commit 8d9518b9358ee67bc7d13238336a6e5396a4ab37
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 00:34:41 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     00:34:41 up 41 min,  1 user,  load average: 0.00, 0.02, 0.07
+    b9cfa7628c37ab718f3b0b79fef213d8ed4f04f
+
+:100644 100644 5d77e42... abfddff... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 43c1fce... 20d7fb6... M	nemu/src/monitor/expr.c
+
+commit 9745e995331429f6c940ff39e2ecc967dfe6124f
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 00:32:56 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     00:32:56 up 39 min,  1 user,  load average: 0.04, 0.04, 0.08
+    8a65addcac302f6ff347863a260d02238e83764c
+
+:100755 100755 2c4c86a... 2838f7f... M	nemu/nemu
+:000000 100644 0000000... 5d77e42... A	nemu/src/monitor/.expr.c.swp
+:100755 100755 c6371a7... 43c1fce... M	nemu/src/monitor/expr.c
+
+commit 0151e14fda0996c257bb8b728bb614ebb80b201b
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 00:31:49 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     00:31:49 up 38 min,  1 user,  load average: 0.00, 0.03, 0.08
+    e140334ccb0f1e05294caf4c881a4a1acef3c25d
+
+:100755 100755 32afa36... 2c4c86a... M	nemu/nemu
+:100644 000000 67dda65... 0000000... D	nemu/src/monitor/.expr.c.swp
+:100755 100755 69bfc5f... c6371a7... M	nemu/src/monitor/expr.c
+
+commit d11cbac420a2199b9ca6384de6d44107c9ea247f
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 00:28:21 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     00:28:21 up 35 min,  1 user,  load average: 0.02, 0.07, 0.11
+    d79522378d62c99c3188143fdc0675ac97970675
+
+:100755 100755 9055514... 32afa36... M	nemu/nemu
+:000000 100644 0000000... 67dda65... A	nemu/src/monitor/.expr.c.swp
+:100755 100755 390521c... 69bfc5f... M	nemu/src/monitor/expr.c
+
+commit ff8f2adaa20f4ea154209afe1801e879e3d873e9
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 00:22:44 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     00:22:44 up 29 min,  1 user,  load average: 0.01, 0.11, 0.15
+    c520f97f2c07061e2f06484b3aa836052b636b5
+
+:100755 100755 abf2bc5... 9055514... M	nemu/nemu
+:100644 000000 b439ed3... 0000000... D	nemu/src/monitor/.expr.c.swp
+:100755 100755 81a7e31... 390521c... M	nemu/src/monitor/expr.c
+
+commit ad1db283ab708ac0e40dcf29498e4f4a763b89ec
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 00:05:19 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     00:05:19 up 12 min,  1 user,  load average: 0.21, 0.22, 0.21
+    f4ebbc04fbf7c7e5b1f53a9cbc6bff708452fa13
+
+:100755 100755 abdaad1... abf2bc5... M	nemu/nemu
+:100755 100755 57363a5... 36ce902... M	nemu/src/cpu/cpu.c
+
+commit 0feb5d3174bd252ab00c6c266881c5f3f6431585
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 00:02:51 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     00:02:51 up 9 min,  1 user,  load average: 0.00, 0.20, 0.21
+    c56344fdc0daad937bd7a335f771a601ae1cb381
+
+:100755 100755 6605814... abdaad1... M	nemu/nemu
+:100755 100755 e7f43bf... 57363a5... M	nemu/src/cpu/cpu.c
+
+commit 0f24273baa14f7d65168ef61f8ebfe7d04139ec9
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Mon Nov 20 00:00:03 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     00:00:03 up 7 min,  1 user,  load average: 0.02, 0.36, 0.26
+    85579c5c8b4b438c48b604ff33dbd3de35703fb7
+
+:100755 100755 dff91db... 6605814... M	nemu/nemu
+:000000 100644 0000000... b439ed3... A	nemu/src/monitor/.expr.c.swp
+:100755 100755 088cd65... 81a7e31... M	nemu/src/monitor/expr.c
+
+commit e094631a94031a8acfc68d798a0407220e5ce67a
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 23:56:00 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     23:56:00 up 2 min,  1 user,  load average: 0.69, 0.72, 0.31
+    87419642b6a76c53ac9952b33886f213b752d70f
+
+:100644 000000 6d157ad... 0000000... D	nemu/src/monitor/.expr.c.swp
+:100755 100755 3baeab0... 088cd65... M	nemu/src/monitor/expr.c
+
+commit 02268686af71a63afb4de4408e0f594a6d6ba05c
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 13:01:10 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     13:01:10 up  6:02,  1 user,  load average: 0.17, 0.13, 0.09
+    bcb4d94714e8c3e88fc5ea2ce9c88d43c99aeb43
+
+:100755 100755 7875c50... dff91db... M	nemu/nemu
+:000000 100644 0000000... 6d157ad... A	nemu/src/monitor/.expr.c.swp
+:100755 100755 6247082... 3baeab0... M	nemu/src/monitor/expr.c
+
+commit 9b705e4276b167756e972789f718bc5944d34dcf
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 12:59:38 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:59:38 up  6:01,  1 user,  load average: 0.04, 0.08, 0.07
+    b4eee414bb9ab3e96d5064ac5b38f68762931362
+
+:100755 100755 419e7ad... 6247082... M	nemu/src/monitor/expr.c
+
+commit 8d5639d8d1ab9cba6367231f5901d81a98d51487
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 12:59:27 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:59:27 up  6:01,  1 user,  load average: 0.05, 0.09, 0.07
+    72130039544f5c14a8bb794dad164f2cbdc3ad9
+
+:100755 100755 609430b... 419e7ad... M	nemu/src/monitor/expr.c
+
+commit daa22a4db834f6c478e95cb6f11d8e8bd869273f
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 12:59:10 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:59:10 up  6:00,  1 user,  load average: 0.06, 0.09, 0.07
+    40d11f6648552ab4b0b386a31155cf1f4d32d3e
+
+:100644 000000 cc9c628... 0000000... D	nemu/src/monitor/.expr.c.swp
+:100755 100755 2ef76ca... 609430b... M	nemu/src/monitor/expr.c
+
+commit 5ec3357e897d5856c3f290148c378d60c46a4319
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 12:58:40 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:58:40 up  6:00,  1 user,  load average: 0.10, 0.10, 0.08
+    9180813cfe0c0659a26993a7718070652f0f6a3d
+
+:100644 100644 85d2f82... cc9c628... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 425f3fe... 2ef76ca... M	nemu/src/monitor/expr.c
+
+commit 557bb2ea591d444fb5b3d62b034f0a6cb8f83a8c
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 12:58:08 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:58:08 up  5:59,  1 user,  load average: 0.18, 0.12, 0.08
+    be90433f15f76ce69dc6d77e6e6f6814690b8af2
+
+:100644 100644 e43ec88... 85d2f82... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 9bba527... 425f3fe... M	nemu/src/monitor/expr.c
+
+commit 797a2b0c2553fce138c0b7270e351bf5e5c3c5d4
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 12:54:59 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:54:59 up  5:56,  1 user,  load average: 0.03, 0.08, 0.06
+    4b9407d295598344eded02111cdfcd0a940a4e7b
+
+:100644 100644 82a5cd9... e43ec88... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 609430b... 9bba527... M	nemu/src/monitor/expr.c
+
+commit ed03d83fb5b0ac7a782c3f8f18d058f10a35ffcc
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 12:53:06 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:53:06 up  5:54,  1 user,  load average: 0.24, 0.13, 0.07
+    3f5b67e49ddf7a0095a98c44730ff1beb5bd40fa
+
+:000000 100644 0000000... 82a5cd9... A	nemu/src/monitor/.expr.c.swp
+:100755 100755 901a401... 609430b... M	nemu/src/monitor/expr.c
+
+commit dcf04aea08464a59347f62380dd493d4a39abe7f
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 12:52:33 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:52:33 up  5:54,  1 user,  load average: 0.08, 0.10, 0.06
+    86d6e4e6fee06d58c38425ee75735680c5314f3f
+
+:100644 000000 8fa4f93... 0000000... D	nemu/src/monitor/.expr.c.swp
+:100755 100755 d77cbd2... 901a401... M	nemu/src/monitor/expr.c
+
+commit 275afa3d2ef82045474a06192f0442a6345bc0a2
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 12:49:17 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:49:17 up  5:51,  1 user,  load average: 0.22, 0.14, 0.07
+    5ceca1b859e5ffbaa81ee8649e322c1ca7336333
+
+:100644 100644 85aaa04... 8fa4f93... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 79d9d96... d77cbd2... M	nemu/src/monitor/expr.c
+
+commit ef24d82c7c7efd5ba3eb4781e975a209e7365180
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 12:48:01 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:48:01 up  5:49,  1 user,  load average: 0.29, 0.13, 0.06
+    8db21c3be3028555e3cb74bba0c238a7f6b85beb
+
+:100644 100644 4d9de8d... 85aaa04... M	nemu/src/monitor/.expr.c.swp
+
+commit 9c53f6915f920918a32f347df07152ff9cdd5968
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 12:46:48 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:46:48 up  5:48,  1 user,  load average: 0.20, 0.09, 0.04
+    edcb7197d72a14f391b8918918f64820b69c180c
+
+:100644 100644 88642c8... 4d9de8d... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 6c836dd... 79d9d96... M	nemu/src/monitor/expr.c
+
+commit 48ce997f6ba1232ee6e2a77a33412bb71d87ac40
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 12:45:46 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:45:46 up  5:47,  1 user,  load average: 0.05, 0.05, 0.03
+    106f5c73ac3433dccaa99095c26d459fcba733ee
+
+:100755 100755 63140aa... 7875c50... M	nemu/nemu
+:100644 100644 9bfef4f... 88642c8... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 63dd108... 6c836dd... M	nemu/src/monitor/expr.c
+
+commit 3b064a8211427c1d369ce555018f95268a292878
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 12:39:47 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:39:47 up  5:41,  1 user,  load average: 0.06, 0.11, 0.05
+    b775b65418f40b05cfb15ef6e2f1498ee97024f2
+
+:100755 100755 98144d5... 63140aa... M	nemu/nemu
+:100644 100644 a23a57c... 9bfef4f... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 ad2794c... 63dd108... M	nemu/src/monitor/expr.c
+
+commit 8ca7af263ef70025dc3698f055d412ad7861cd67
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 12:38:12 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:38:12 up  5:40,  1 user,  load average: 0.04, 0.12, 0.05
+    b99893334d5c362fe486a73c56d56eda1854b026
+
+:100755 100755 9a8ecda... 98144d5... M	nemu/nemu
+:100644 100644 a8a8df7... a23a57c... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 478344e... ad2794c... M	nemu/src/monitor/expr.c
+
+commit 5b519e27c088add0a346efa4cb026c569616c84c
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 12:37:35 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:37:35 up  5:39,  1 user,  load average: 0.07, 0.13, 0.06
+    a4a473c7286613697a9bb46cdea10ccd1469f25f
+
+:100644 100644 6c1ff67... a8a8df7... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 1b4bb7d... 478344e... M	nemu/src/monitor/expr.c
+
+commit 618c007e368d8b9b695691d5c04d7105b46d6ddc
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 12:35:46 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:35:46 up  5:37,  1 user,  load average: 0.35, 0.18, 0.06
+    86bb72bbded28379243fc17a1a3138b190c9ef6
+
+:100755 100755 8d9324f... 9a8ecda... M	nemu/nemu
+:100644 100644 65f1259... 6c1ff67... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 ae698a3... 1b4bb7d... M	nemu/src/monitor/expr.c
+
+commit 65001284632276f6943408a89742cab2f584cfe4
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 12:33:15 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:33:15 up  5:35,  1 user,  load average: 0.03, 0.05, 0.01
+    93215c1cb0c08dd190a8f9914c2079c37d9ab20f
+
+:100755 100755 31fffde... 8d9324f... M	nemu/nemu
+:100644 100644 727c459... 65f1259... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 5169446... ae698a3... M	nemu/src/monitor/expr.c
+
+commit 55a407a74be1b49a0e1aedf1c25d9aefa0882299
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 12:32:00 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:32:00 up  5:33,  1 user,  load average: 0.12, 0.07, 0.02
+    ae13140354ae1080d18e8fa58c6fc690eb4aeee7
+
+:100644 100644 b0a1442... 727c459... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 7f1e2bb... 5169446... M	nemu/src/monitor/expr.c
+
+commit d148f61bbdf0e2d55436f8c93614c58d60cdf32a
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 12:31:41 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:31:41 up  5:33,  1 user,  load average: 0.17, 0.07, 0.02
+    7619b234a03ac225557a5940bdf7bea37268d4c
+
+:100755 100755 babae9d... 31fffde... M	nemu/nemu
+:100644 100644 f8a6d3b... b0a1442... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 c9bcf4b... 7f1e2bb... M	nemu/src/monitor/expr.c
+
+commit 7de0fc4ebb03deb0d7b6353dd3eb27f9ab8b8b85
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 12:18:27 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:18:27 up  5:20,  1 user,  load average: 0.04, 0.04, 0.00
+    c7e2e100472cc20a104fa261f98bf835668cf20b
+
+:100644 100644 edd5594... f8a6d3b... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 0eca1d0... c9bcf4b... M	nemu/src/monitor/expr.c
+
+commit 6a030bfc4a800b47c1a8da49aa14a1032c6c6cbe
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 12:18:13 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:18:13 up  5:20,  1 user,  load average: 0.06, 0.04, 0.00
+    fdf912a854e6bce3149793b8170c1ed144af9743
+
+:100644 100644 7bdc019... edd5594... M	nemu/src/monitor/.expr.c.swp
+
+commit 4290016d815a3a2222796fe4388c19cbdf4c63a5
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 12:17:54 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:17:54 up  5:19,  1 user,  load average: 0.08, 0.05, 0.01
+    97522d295cfa07ca83682c7e782c448f9a9fb385
+
+:100755 100755 061243a... babae9d... M	nemu/nemu
+:100644 100644 548ef7d... 7bdc019... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 ad87416... 0eca1d0... M	nemu/src/monitor/expr.c
+
+commit 587bdfd1155eb48930834209b0b77559a77a6057
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 12:16:09 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:16:09 up  5:17,  1 user,  load average: 0.00, 0.03, 0.00
+    1bebcd2ccda0faa2c74f2c48149285ae91a2ec4
+
+:100755 100755 bc8b45f... 061243a... M	nemu/nemu
+:100644 100644 50ada55... 548ef7d... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 b17d884... ad87416... M	nemu/src/monitor/expr.c
+
+commit 0fdff71c95594fee157de37c012c0448cb01bd1e
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 12:12:02 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:12:02 up  5:13,  1 user,  load average: 0.15, 0.08, 0.02
+    2b561dc9a446e4f84ee67360778c6a73c6ea4774
+
+:100644 100644 2f5681e... 50ada55... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 fc6cf50... b17d884... M	nemu/src/monitor/expr.c
+
+commit 80d5cf76916d79d75b586f77b52d77cc47239ca5
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 12:10:39 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     12:10:39 up  5:12,  1 user,  load average: 0.08, 0.07, 0.01
+    b3ebeffc7173277e9b64a9c4db5be6d032672104
+
+:100644 100644 1200ad1... 2f5681e... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 e32b268... fc6cf50... M	nemu/src/monitor/expr.c
+
+commit e695dc014a8de94e82860e4902dfdb78c2dadb4e
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 11:30:41 2017 -0500
+
+    >  run
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     11:30:41 up  4:32,  1 user,  load average: 0.08, 0.07, 0.02
+    f3a1a0a0fb3deba4385debecc6e02289e83d2c9d
+
+:100755 100755 97beaba... bc8b45f... M	nemu/nemu
+
+commit 6fefa8a7ced39e47e1e1ad69e140aabd79b21ab8
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 11:30:41 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     11:30:41 up  4:32,  1 user,  load average: 0.08, 0.07, 0.02
+    452d718e240f5d57b0d9d7ad264d9ddc51e03ed
+
+:000000 100644 0000000... 1200ad1... A	nemu/src/monitor/.expr.c.swp
+:100755 100755 581ce60... e32b268... M	nemu/src/monitor/expr.c
+
+commit aefc60d8843dcde47aedc0ddfce11fb4cc998049
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 11:30:19 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     11:30:19 up  4:32,  1 user,  load average: 0.13, 0.08, 0.02
+    2c0eb7944eb10fc928fe0f7bf4e585ec64670f64
+
+:100755 100755 119c2df... 97beaba... M	nemu/nemu
+:100644 000000 19b060e... 0000000... D	nemu/src/monitor/.expr.c.swp
+:100755 100755 5d13614... 581ce60... M	nemu/src/monitor/expr.c
+
+commit 79a063e190a8bf8a279131fc097c4f3e3cb8cdf2
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 11:16:33 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     11:16:33 up  4:18,  1 user,  load average: 0.18, 0.08, 0.02
+    1d147e714675c4edfa11d211587fd71a56bb8f9
+
+:100755 100755 4e15212... 119c2df... M	nemu/nemu
+:100644 100644 86cbd73... 19b060e... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 2f51da1... 5d13614... M	nemu/src/monitor/expr.c
+
+commit a279c4f15e8f17ca9c12aa0715fb3d29f91c6749
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 11:14:54 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     11:14:54 up  4:16,  1 user,  load average: 0.07, 0.03, 0.00
+    8ddf0ac7c54f83483c26e9ffa2d14fae7298741d
+
+:100755 100755 ad2f689... 4e15212... M	nemu/nemu
+:100644 100644 ae3c0cd... 86cbd73... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 cb3612a... 2f51da1... M	nemu/src/monitor/expr.c
+
+commit 25a382c9e2312dc5cc9a502a1d44fc51596a6777
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 10:52:26 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     10:52:27 up  3:54,  1 user,  load average: 0.13, 0.08, 0.06
+    41a8632c4e42a6c2ecbf065fbe52659ec4e3e51c
+
+:100644 100644 b5f728b... ae3c0cd... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 6b07108... cb3612a... M	nemu/src/monitor/expr.c
+
+commit 68bfc3aec6fa2ccb2978b2738661950ac059c079
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 10:52:05 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     10:52:05 up  3:53,  1 user,  load average: 0.01, 0.06, 0.05
+    bc1c3534a831370d35efb9ebcb116512b5d540d
+
+:100644 100644 322ca38... b5f728b... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 0d4c415... 6b07108... M	nemu/src/monitor/expr.c
+
+commit ecbbd0c6061ebd9adfc4063f1980f047f87f78ab
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 10:51:27 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     10:51:26 up  3:53,  1 user,  load average: 0.02, 0.07, 0.06
+    3fcd9259c555709400b58f39762da59ba7afe3c
+
+:100644 100644 ac27df1... 322ca38... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 345cffc... 0d4c415... M	nemu/src/monitor/expr.c
+
+commit d4346a2ca444db6af3901f432f980a27727f80df
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 10:49:28 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     10:49:28 up  3:51,  1 user,  load average: 0.14, 0.11, 0.07
+    7a5165c985be10e4890222c1b844a55d32e70e4b
+
+:100644 100644 a058fe3... ac27df1... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 8027183... 345cffc... M	nemu/src/monitor/expr.c
+
+commit 836b073bd865720d91200fe9a1cc3c148ae560be
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 10:49:09 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     10:49:09 up  3:50,  1 user,  load average: 0.11, 0.10, 0.06
+    2a145bca80eba9dd1d5b1fcf3155924d34c0818e
+
+:100644 100644 8d2a260... a058fe3... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 4adb60f... 8027183... M	nemu/src/monitor/expr.c
+
+commit a6006e919219b6e85c666b4e5bc380e2494f2c65
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 10:42:00 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     10:42:00 up  3:43,  1 user,  load average: 0.00, 0.01, 0.01
+    99e806ea17ba270def41f5e95b618aadbb13fdb
+
+:100644 100644 1b4f3d1... 8d2a260... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 e136f65... 4adb60f... M	nemu/src/monitor/expr.c
+
+commit ab9a7d44c055d6aa26296d92d0c752932698d91d
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 10:32:22 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     10:32:21 up  3:34,  1 user,  load average: 0.04, 0.06, 0.05
+    dd0e35abdf84ffcb10c067fef049f76d7ce5c3c3
+
+:100644 100644 e07ee6d... 1b4f3d1... M	nemu/src/monitor/.expr.c.swp
+
+commit 7455c1840dbac4b1c2b0f146ea715cfa197285e3
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 10:31:53 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     10:31:53 up  3:33,  1 user,  load average: 0.07, 0.07, 0.05
+    2616ef84dda5fad6ccc3e7508c5b1009f859e826
+
+:100644 100644 d4f1b46... e07ee6d... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 51ab17f... e136f65... M	nemu/src/monitor/expr.c
+
+commit 6df78184288c5eee7cde461d49f39918ce405761
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 10:30:07 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     10:30:07 up  3:31,  1 user,  load average: 0.18, 0.08, 0.06
+    a529b0536b4a092e97a247e07321526727f9605b
+
+:100644 100644 95c2957... d4f1b46... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 2f1ade0... 51ab17f... M	nemu/src/monitor/expr.c
+
+commit c2309bf8cbb946c346b936e1297470263476a3d5
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 10:26:32 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     10:26:32 up  3:28,  1 user,  load average: 0.01, 0.06, 0.05
+    6965a79739c69d95d367673639a665fe93c5caf5
+
+:100644 100644 334e11b... 95c2957... M	nemu/src/monitor/.expr.c.swp
+
+commit ead595b8dd00a0fe0c4818454f4b2aee2e2bf2b5
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 10:26:25 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     10:26:25 up  3:28,  1 user,  load average: 0.01, 0.07, 0.05
+    27b8455c151ccf479a3ec646664d146ff220e7ac
+
+:100644 100644 3a79bc2... 334e11b... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 9e7d04e... 2f1ade0... M	nemu/src/monitor/expr.c
+
+commit f948f74faf2ca6036c1ebc798b0be06d340cc466
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 10:23:04 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     10:23:04 up  3:24,  1 user,  load average: 0.20, 0.11, 0.06
+    503988486a84c346a96af4599a660463d8d0056b
+
+:100644 100644 410208e... 3a79bc2... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 408c8d2... 9e7d04e... M	nemu/src/monitor/expr.c
+
+commit df462631faa438d4d424a176306a5428352f209a
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 10:22:12 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     10:22:11 up  3:24,  1 user,  load average: 0.10, 0.08, 0.05
+    dc4a9196c37f651bf7b458d757b6b16e55f0c05a
+
+:100644 100644 2618d24... 410208e... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 d36c750... 408c8d2... M	nemu/src/monitor/expr.c
+
+commit 8ec70e7e294d5814b967e25f502c3fd80a2af9ff
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 10:21:24 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     10:21:24 up  3:23,  1 user,  load average: 0.23, 0.09, 0.05
+    d2c267e8e53e03e49bcf0559bb2e8c1ebf11c400
+
+:100644 100644 08070dc... 2618d24... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 b09895f... d36c750... M	nemu/src/monitor/expr.c
+
+commit cbce4bb5095705ed7d55965e7abf55beb339a6c7
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 10:20:46 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     10:20:46 up  3:22,  1 user,  load average: 0.13, 0.07, 0.05
+    6c69c720d5cbc7c6c9d65786066c4a7e8d8401f
+
+:100644 100644 630a82b... 08070dc... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 9f650d0... b09895f... M	nemu/src/monitor/expr.c
+
+commit db57118f9de1120bf935f4322ae250f1b35703cf
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 10:16:08 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     10:16:08 up  3:17,  1 user,  load average: 0.04, 0.06, 0.05
+    6b1de7723a5c414dd956d112eefb810dd68a8207
+
+:100644 100644 b9b4f43... 630a82b... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 38a06ae... 9f650d0... M	nemu/src/monitor/expr.c
+
+commit ecf0d50059d60b2f582e5cba3e89bee8043c34e7
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 10:15:31 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     10:15:31 up  3:17,  1 user,  load average: 0.08, 0.07, 0.05
+    9c890fcdb843a7d69f90d5a08deb024c7b0051c3
+
+:100644 100644 a4d466c... b9b4f43... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 09a76b9... 38a06ae... M	nemu/src/monitor/expr.c
+
+commit 2b6be425b110c555694b596f2e04fad7085dd2ce
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 10:14:46 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     10:14:46 up  3:16,  1 user,  load average: 0.00, 0.07, 0.05
+    24be9c93c252d220a6a7b4004f276936106e39da
+
+:100644 100644 7e2f5cf... a4d466c... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 57c9f32... 09a76b9... M	nemu/src/monitor/expr.c
+
+commit 767f30af7481c2200d5634c5ffb54a413f54f58b
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 08:42:41 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:42:41 up  2:43,  1 user,  load average: 0.00, 0.02, 0.00
+    4975f1507ed67c9c7ef065682d8b232676b1c482
+
+:100755 100755 bfd4cb9... ad2f689... M	nemu/nemu
+:100644 100644 267a9b9... 7e2f5cf... M	nemu/src/monitor/.expr.c.swp
+
+commit a02bb239c50a83050a83e9a8745a014832b0cbf6
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 08:24:05 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:24:05 up  2:25,  1 user,  load average: 0.26, 0.12, 0.03
+    eb21ee0d5d4e6983ec69a2cfc1717162a6fe4a70
+
+:100644 100644 3ecf214... 267a9b9... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 4c2db89... 57c9f32... M	nemu/src/monitor/expr.c
+
+commit 7f22176f8f99d4650abc022d8c65c2227e859815
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 08:22:41 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:22:41 up  2:23,  1 user,  load average: 0.03, 0.06, 0.01
+    58fab5c3d5b773e2d057b764301bee08a2a29f8
+
+:100644 100644 c78935c... 3ecf214... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 71e8094... 4c2db89... M	nemu/src/monitor/expr.c
+
+commit 24df0c1241613c9b6f127b18e2f29a09e3aadc0f
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 08:21:58 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:21:58 up  2:22,  1 user,  load average: 0.06, 0.07, 0.02
+    a77148da61454305f7f2d1ad6f7a09c7b2466422
+
+:100644 100644 dd61b22... c78935c... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 172c712... 71e8094... M	nemu/src/monitor/expr.c
+
+commit 51268c5a40e8fd9cca5c2bc133a7ac94f4d175bc
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 08:21:24 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:21:24 up  2:22,  1 user,  load average: 0.11, 0.08, 0.02
+    fd129bfbd610baa0f720f947df7de338899801d
+
+:100644 100644 b484dae... dd61b22... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 7e37edd... 172c712... M	nemu/src/monitor/expr.c
+
+commit d3b0ed16809d5a2f92354eec180362c15cea4454
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 08:21:05 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:21:04 up  2:22,  1 user,  load average: 0.15, 0.08, 0.02
+    11f1f381ff14b6a16a149190dd451f9ee8f39bb0
+
+:100644 100644 39d9e03... b484dae... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 88e1d57... 7e37edd... M	nemu/src/monitor/expr.c
+
+commit e20d3e6f9aeb26337ba0888335b32104480bbd3b
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 08:20:23 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:20:23 up  2:21,  1 user,  load average: 0.30, 0.10, 0.03
+    f466dee3d9afe4b1d5e5ef27a5344e98cf6f61c3
+
+:100644 100644 e1acb61... 39d9e03... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 999a838... 88e1d57... M	nemu/src/monitor/expr.c
+
+commit 02b024d4aa2d15f532c422e06e5deda23fc58fcb
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 08:19:51 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:19:51 up  2:20,  1 user,  load average: 0.14, 0.05, 0.01
+    23a1f1c8a59601ac8e8bf8d0ffe08e3a6a5427a7
+
+:100644 100644 ab48327... e1acb61... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 6b6c6ac... 999a838... M	nemu/src/monitor/expr.c
+
+commit c78cd290500cac14f51733cb11bbda79e25931dc
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 08:19:23 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:19:23 up  2:20,  1 user,  load average: 0.21, 0.06, 0.02
+    edb66d7ace03dcccc3c7f142d893f7b8a7c32b1
+
+:100644 100644 984c1b2... ab48327... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 e2c4033... 6b6c6ac... M	nemu/src/monitor/expr.c
+
+commit 0004668eac3519b48a626aeba373543b10975e97
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 08:18:15 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:18:15 up  2:19,  1 user,  load average: 0.16, 0.03, 0.01
+    52c5452891846d4de65d1c73f5ac1db7e5e11af8
+
+:100755 100755 f9b09af... bfd4cb9... M	nemu/nemu
+:100644 100644 364b272... 984c1b2... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 6a2b5f4... e2c4033... M	nemu/src/monitor/expr.c
+
+commit f112eecccffabc14328ed91b791bab9efdb18bbe
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 08:08:28 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:08:28 up  2:09,  1 user,  load average: 0.07, 0.04, 0.00
+    4ddc64fc4cb9058ed37106b8991fec4834855528
+
+:100644 100644 57c45ad... 364b272... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 4a31ef3... 6a2b5f4... M	nemu/src/monitor/expr.c
+
+commit cef7cc00d0d1ce7ab47449978f180b45072bfc76
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 08:05:04 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:05:04 up  2:06,  1 user,  load average: 0.08, 0.04, 0.00
+    c1b03b2a5ad676e8758cb14599a51caab5ead59
+
+:100644 100644 2a29b4b... 57c45ad... M	nemu/src/monitor/.expr.c.swp
+
+commit e5b0fd807e7a67d51f747ad3ff0ef99d56258c22
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 08:05:00 2017 -0500
+
+    >  run
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:05:00 up  2:05,  1 user,  load average: 0.09, 0.04, 0.01
+    a9645e609e215725375dfbbf66a8f0ae901f27d0
+
+:100755 100755 acd3bf6... f9b09af... M	nemu/nemu
+
+commit 4403a0b61d55add9af526f4170c2a07de031b9f9
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 08:05:00 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     08:05:00 up  2:05,  1 user,  load average: 0.09, 0.04, 0.01
+    4565c6eeba7d4f76693ef4c8e2df4aeb31af190a
+
+:100644 100644 74f686c... 2a29b4b... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 3aa6840... 4a31ef3... M	nemu/src/monitor/expr.c
+
+commit 2d4d67deced7d4de4f512f57537cc6778aa32573
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 07:57:11 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     07:57:11 up  1:58,  1 user,  load average: 0.15, 0.08, 0.02
+    24091b24a99e066c133b086c3a8c5a58c4116980
+
+:100755 100755 ef83476... acd3bf6... M	nemu/nemu
+:100644 100644 75523dd... 74f686c... M	nemu/src/monitor/.expr.c.swp
+
+commit 40fd6e62480072a8ba5e5e9bcca9ee7e7fa0ae90
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 07:57:01 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     07:57:01 up  1:58,  1 user,  load average: 0.18, 0.08, 0.02
+    61b0347ce8e3050eb8330bd5c512c3f3145b9aeb
+
+:100644 100644 f1b6c5e... 75523dd... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 06899a8... 3aa6840... M	nemu/src/monitor/expr.c
+
+commit c6075c12a618ce3c73e9df8986dacfbe5627eb5b
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 07:56:07 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     07:56:07 up  1:57,  1 user,  load average: 0.02, 0.03, 0.00
+    22629b50ac002fead4ae887d21b82ca78452a62e
+
+:100644 100644 ab5d529... f1b6c5e... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 06cc6d1... 06899a8... M	nemu/src/monitor/expr.c
+
+commit dc929086deb1c807a1d56688dc32fd45d9c18f31
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 07:55:42 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     07:55:42 up  1:56,  1 user,  load average: 0.03, 0.03, 0.00
+    ee84fc7995bb5e509d5520db192857b75775ef6a
+
+:100644 100644 258da85... ab5d529... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 8d34cd2... 06cc6d1... M	nemu/src/monitor/expr.c
+
+commit a3b341d5866bfa6490756f724e882ee3f03d759f
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 07:54:17 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     07:54:17 up  1:55,  1 user,  load average: 0.01, 0.03, 0.00
+    5cc52d1e1b0e7f4afe6966f6a39676d4f00ea950
+
+:100755 100755 e341661... ef83476... M	nemu/nemu
+:100644 100644 fd953c5... 258da85... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 6238c82... 8d34cd2... M	nemu/src/monitor/expr.c
+
+commit 48d3ca500e49bd7f5d019db2c384bbb681ca239b
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 07:27:01 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     07:27:01 up  1:28,  1 user,  load average: 0.00, 0.02, 0.00
+    12f305cc66e4695f7687b4455518ad88779e268f
+
+:100755 100755 28893a9... e341661... M	nemu/nemu
+:100644 100644 f631553... fd953c5... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 7c225f2... 6238c82... M	nemu/src/monitor/expr.c
+
+commit 6202a5d4cbc090befe5f79bb446ec14fd68b35a9
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 07:21:24 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     07:21:24 up  1:22,  1 user,  load average: 0.07, 0.07, 0.02
+    1c76c81a904042c965177191773b46257bd80b38
+
+:100755 100755 bda8c63... 28893a9... M	nemu/nemu
+:100644 100644 19d0c53... f631553... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 39e6a4c... 7c225f2... M	nemu/src/monitor/expr.c
+
+commit 3d291b2a9e415555b1000af061ab0e174b7a8f37
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 07:09:22 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     07:09:22 up  1:10,  1 user,  load average: 0.02, 0.04, 0.01
+    abfb38f197ecdc153fafaef439d24a0ca6c1375b
+
+:100644 100644 ecf2ebd... 19d0c53... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 7a54940... 39e6a4c... M	nemu/src/monitor/expr.c
+
+commit 785096cc60cbbc02f5b1d083e560781c64378a80
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 07:07:42 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     07:07:42 up  1:08,  1 user,  load average: 0.15, 0.06, 0.02
+    1fdceeb53efad495ef7a72cbb0393ae489db75e
+
+:100644 100644 f2a0d6b... ecf2ebd... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 4bcaf8d... 7a54940... M	nemu/src/monitor/expr.c
+
+commit 2a8d602cc3b7180fecd6a4b656a7a2cdef9f7918
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 06:53:42 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     06:53:42 up 54 min,  1 user,  load average: 0.16, 0.05, 0.01
+    aee7329da548b2cf2f70a485286fa9e639d9746e
+
+:100755 100755 c3c0bbc... bda8c63... M	nemu/nemu
+:100644 100644 eb7cd77... f2a0d6b... M	nemu/src/monitor/.expr.c.swp
+
+commit ba58862268fb216102113d9a8b180538c4eb83cf
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 06:53:34 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     06:53:34 up 54 min,  1 user,  load average: 0.17, 0.05, 0.01
+    ed6844ffc6d6186183938f031c572309f226ba7c
+
+:100644 100644 fa69fde... eb7cd77... M	nemu/src/monitor/.expr.c.swp
+:100755 100755 b219a5a... 4bcaf8d... M	nemu/src/monitor/expr.c
+
+commit 1cfe6712f2d62d61d712132d7d7a3a7e2cd1bd48
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Sun Nov 19 06:52:57 2017 -0500
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     06:52:57 up 53 min,  1 user,  load average: 0.01, 0.00, 0.00
+    aabec6ec228aeecfc2795032f91d894aa00abaf6
+
+:000000 100644 0000000... fa69fde... A	nemu/src/monitor/.expr.c.swp
+:100755 100755 ec86f8c... b219a5a... M	nemu/src/monitor/expr.c
+
+commit 08b49a1ac4a4ec83f4c0364a09a14d5234f76096
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Oct 31 05:23:30 2017 -0400
+
+    >  testkernel
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     05:23:30 up 5 min,  1 user,  load average: 1.27, 0.94, 0.49
+    22d7aec7f701e0c15b69f072e8e24a82d7e398c
+
+:000000 100755 0000000... b14bfeb... A	kernel/kernel
+:000000 100755 0000000... fe7c836... A	kernel/kernel.img
+:000000 100755 0000000... c3c0bbc... A	nemu/nemu
+
+commit 45798824441d0766c846cb5dd79d023012300706
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Tue Oct 31 05:22:56 2017 -0400
+
+    >  nemu
+    161220096
+    young
+    Linux debian 4.9.0-3-686-pae #1 SMP Debian 4.9.30-2+deb9u3 (2017-08-06) i686 GNU/Linux
+     05:22:55 up 5 min,  1 user,  load average: 0.36, 0.76, 0.41
+    da41bb15ed57187a1008664aa0f2572680c8baaf
+
+:000000 100644 0000000... c751e02... A	.gitignore
+:000000 100644 0000000... 341309a... A	1028test.txt
+:000000 100755 0000000... ba2d3d6... A	161220096.pdf
+:000000 100755 0000000... 0b4fe33... A	"161220096PA1\345\256\236\351\252\214\346\212\245\345\221\212.docx"
+:000000 100755 0000000... 3d5183e... A	Makefile
+:000000 100755 0000000... 8502803... A	Makefile.git
+:000000 100644 0000000... 43822f3... A	README.md
+:000000 100755 0000000... 0927071... A	fox.sh
+:000000 100755 0000000... 59619dc... A	game/Makefile
+:000000 100755 0000000... 6ea95af... A	game/include/adt/linklist.h
+:000000 100755 0000000... 4147828... A	game/include/common.h
+:000000 100755 0000000... 1bda1c8... A	game/include/debug.h
+:000000 100755 0000000... e5f06e0... A	game/include/device/palette.h
+:000000 100755 0000000... 0692471... A	game/include/device/video.h
+:000000 100755 0000000... f40ddb5... A	game/include/game-common.h
+:000000 100755 0000000... 7f4d88d... A	game/include/x86.h
+:000000 100755 0000000... 124ed40... A	game/src/common/device/font.c
+:000000 100755 0000000... f49eec2... A	game/src/common/device/palette.c
+:000000 100755 0000000... 4000130... A	game/src/common/device/timer.c
+:000000 100755 0000000... 3792166... A	game/src/common/device/video.c
+:000000 100755 0000000... 679a477... A	game/src/common/lib/syscall.c
+:000000 100755 0000000... 4e42562... A	game/src/common/main.c
+:000000 100755 0000000... 2c2f4e7... A	game/src/nemu-pal/CREDITS.txt
+:000000 100755 0000000... c0b4590... A	game/src/nemu-pal/README.txt
+:000000 100755 0000000... 6320a63... A	game/src/nemu-pal/battle/battle.c
+:000000 100755 0000000... d2c8a2b... A	game/src/nemu-pal/battle/fight.c
+:000000 100755 0000000... f072ca5... A	game/src/nemu-pal/device/input.c
+:000000 100755 0000000... e40df16... A	game/src/nemu-pal/device/palette.c
+:000000 100755 0000000... fb09233... A	game/src/nemu-pal/device/video.c
+:000000 100755 0000000... 01a9804... A	game/src/nemu-pal/game/game.c
+:000000 100755 0000000... bbfd063... A	game/src/nemu-pal/game/play.c
+:000000 100755 0000000... 30980b9... A	game/src/nemu-pal/game/script.c
+:000000 100755 0000000... 0e90c87... A	game/src/nemu-pal/global/global.c
+:000000 100755 0000000... ffa3320... A	game/src/nemu-pal/global/palcommon.c
+:000000 100755 0000000... f85d723... A	game/src/nemu-pal/global/res.c
+:000000 100755 0000000... fc393b0... A	game/src/nemu-pal/gpl.txt
+:000000 100755 0000000... d0c28f5... A	game/src/nemu-pal/hal/keyboard.c
+:000000 100755 0000000... 31ac858... A	game/src/nemu-pal/hal/timer.c
+:000000 100755 0000000... 67f411b... A	game/src/nemu-pal/hal/video.c
+:000000 100755 0000000... 57ccd40... A	game/src/nemu-pal/include/_common.h
+:000000 100755 0000000... d6885d5... A	game/src/nemu-pal/include/ascii.h
+:000000 100755 0000000... 8daa24b... A	game/src/nemu-pal/include/battle.h
+:000000 100755 0000000... 3439f21... A	game/src/nemu-pal/include/big5font.h
+:000000 100755 0000000... ef1f6c7... A	game/src/nemu-pal/include/ending.h
+:000000 100755 0000000... 163b329... A	game/src/nemu-pal/include/fight.h
+:000000 100755 0000000... ea310e8... A	game/src/nemu-pal/include/font.h
+:000000 100755 0000000... 736f1f4... A	game/src/nemu-pal/include/game.h
+:000000 100755 0000000... 9b98ea8... A	game/src/nemu-pal/include/gbfont.h
+:000000 100755 0000000... a4c29c0... A	game/src/nemu-pal/include/getopt.h
+:000000 100755 0000000... d428d58... A	game/src/nemu-pal/include/global.h
+:000000 100755 0000000... 79cdbfb... A	game/src/nemu-pal/include/hal.h
+:000000 100755 0000000... 51a186f... A	game/src/nemu-pal/include/input.h
+:000000 100755 0000000... d60ca44... A	game/src/nemu-pal/include/itemmenu.h
+:000000 100755 0000000... 79072cd... A	game/src/nemu-pal/include/magicmenu.h
+:000000 100755 0000000... f351c1c... A	game/src/nemu-pal/include/main.h
+:000000 100755 0000000... 089afc4... A	game/src/nemu-pal/include/main_PSP.h
+:000000 100755 0000000... 5145e9a... A	game/src/nemu-pal/include/map.h
+:000000 100755 0000000... 071bb1f... A	game/src/nemu-pal/include/midi.h
+:000000 100755 0000000... ce68c01... A	game/src/nemu-pal/include/palcommon.h
+:000000 100755 0000000... b386497... A	game/src/nemu-pal/include/palette.h
+:000000 100755 0000000... b180a35... A	game/src/nemu-pal/include/play.h
+:000000 100755 0000000... f23c5a2... A	game/src/nemu-pal/include/res.h
+:000000 100755 0000000... 2b9fd84... A	game/src/nemu-pal/include/rixplay.h
+:000000 100755 0000000... 420848d... A	game/src/nemu-pal/include/rngplay.h
+:000000 100755 0000000... f6f0f02... A	game/src/nemu-pal/include/scene.h
+:000000 100755 0000000... 06ef5ee... A	game/src/nemu-pal/include/script.h
+:000000 100755 0000000... 5ac5fd9... A	game/src/nemu-pal/include/sound.h
+:000000 100755 0000000... 37928a1... A	game/src/nemu-pal/include/text.h
+:000000 100755 0000000... 9097bc6... A	game/src/nemu-pal/include/ui.h
+:000000 100755 0000000... efc155a... A	game/src/nemu-pal/include/uibattle.h
+:000000 100755 0000000... 6dc6d15... A	game/src/nemu-pal/include/uigame.h
+:000000 100755 0000000... 2b2425f... A	game/src/nemu-pal/include/util.h
+:000000 100755 0000000... 94103ee... A	game/src/nemu-pal/include/video.h
+:000000 100755 0000000... 9ee6c29... A	game/src/nemu-pal/main.c
+:000000 100755 0000000... 10d7185... A	game/src/nemu-pal/misc/ending.c
+:000000 100755 0000000... 07d0217... A	game/src/nemu-pal/misc/rngplay.c
+:000000 100755 0000000... 9ecc354... A	game/src/nemu-pal/misc/util.c
+:000000 100755 0000000... 3dfdba5... A	game/src/nemu-pal/misc/yj1.c
+:000000 100755 0000000... 545eb27... A	game/src/nemu-pal/scene/map.c
+:000000 100755 0000000... cf8c044... A	game/src/nemu-pal/scene/scene.c
+:000000 100755 0000000... 7d9fa95... A	game/src/nemu-pal/ui/font.c
+:000000 100755 0000000... 2164fd6... A	game/src/nemu-pal/ui/itemmenu.c
+:000000 100755 0000000... 282bbe2... A	game/src/nemu-pal/ui/magicmenu.c
+:000000 100755 0000000... c6072cd... A	game/src/nemu-pal/ui/text.c
+:000000 100755 0000000... c90f094... A	game/src/nemu-pal/ui/ui.c
+:000000 100755 0000000... 7eb5fb2... A	game/src/nemu-pal/ui/uibattle.c
+:000000 100755 0000000... fa30835... A	game/src/nemu-pal/ui/uigame.c
+:000000 100755 0000000... 556d696... A	game/src/nemu-pal/unuse/midi.c
+:000000 100755 0000000... be86b79... A	game/src/nemu-pal/unuse/rixplay.c
+:000000 100755 0000000... 6384bcb... A	game/src/nemu-pal/unuse/sdl.c
+:000000 100755 0000000... 30c1dac... A	game/src/nemu-pal/unuse/sound.c
+:000000 100755 0000000... 70d9253... A	game/src/typing/draw.c
+:000000 100755 0000000... 9d05bbc... A	game/src/typing/effect.c
+:000000 100755 0000000... 798d719... A	game/src/typing/game.c
+:000000 100755 0000000... 8f20f1e... A	game/src/typing/include/game.h
+:000000 100755 0000000... bc619d8... A	game/src/typing/keyboard.c
+:000000 100644 0000000... fbce461... A	git_log_fin.txt
+:000000 100644 0000000... b63f684... A	git_log_pre.txt
+:000000 100644 0000000... 341309a... A	git_log_tmp.txt
+:000000 100755 0000000... 2edc4b5... A	hamster.sh
+:000000 100755 0000000... 1e41140... A	include/config.h
+:000000 100755 0000000... c5597b3... A	include/newlib/include/_ansi.h
+:000000 100755 0000000... 271644e... A	include/newlib/include/_syslist.h
+:000000 100755 0000000... 2ea0fd9... A	include/newlib/include/alloca.h
+:000000 100755 0000000... ac2e4ca... A	include/newlib/include/ar.h
+:000000 100755 0000000... 02c9adb... A	include/newlib/include/argz.h
+:000000 100755 0000000... 91bb040... A	include/newlib/include/assert.h
+:000000 100755 0000000... 969b20e... A	include/newlib/include/complex.h
+:000000 100755 0000000... 56ad5ab... A	include/newlib/include/ctype.h
+:000000 100755 0000000... 6fefc03... A	include/newlib/include/dirent.h
+:000000 100755 0000000... 9bb6a81... A	include/newlib/include/envlock.h
+:000000 100755 0000000... e6a31c3... A	include/newlib/include/envz.h
+:000000 100755 0000000... 7cc2ca8... A	include/newlib/include/errno.h
+:000000 100755 0000000... 95eea5f... A	include/newlib/include/fastmath.h
+:000000 100755 0000000... 86a9167... A	include/newlib/include/fcntl.h
+:000000 100755 0000000... 06311fc... A	include/newlib/include/fnmatch.h
+:000000 100755 0000000... e12d253... A	include/newlib/include/getopt.h
+:000000 100755 0000000... 7a300e6... A	include/newlib/include/glob.h
+:000000 100755 0000000... 1273e39... A	include/newlib/include/grp.h
+:000000 100755 0000000... 4c023e9... A	include/newlib/include/iconv.h
+:000000 100755 0000000... 0b06fb7... A	include/newlib/include/ieeefp.h
+:000000 100755 0000000... 1631e21... A	include/newlib/include/inttypes.h
+:000000 100755 0000000... 9040ade... A	include/newlib/include/langinfo.h
+:000000 100755 0000000... abfab0e... A	include/newlib/include/libgen.h
+:000000 100755 0000000... 190f1f7... A	include/newlib/include/limits.h
+:000000 100755 0000000... cbd658e... A	include/newlib/include/locale.h
+:000000 100755 0000000... 47986d2... A	include/newlib/include/machine/_default_types.h
+:000000 100755 0000000... 18f96d5... A	include/newlib/include/machine/_types.h
+:000000 100755 0000000... 737b6d0... A	include/newlib/include/machine/ansi.h
+:000000 100755 0000000... 07ebc8f... A	include/newlib/include/machine/endian.h
+:000000 100755 0000000... b13befa... A	include/newlib/include/machine/fastmath.h
+:000000 100755 0000000... 042e7f4... A	include/newlib/include/machine/ieeefp.h
+:000000 100755 0000000... fdada9e... A	include/newlib/include/machine/malloc.h
+:000000 100755 0000000... bdf8bf7... A	include/newlib/include/machine/param.h
+:000000 100755 0000000... 6ca5e65... A	include/newlib/include/machine/setjmp-dj.h
+:000000 100755 0000000... 73ccd94... A	include/newlib/include/machine/setjmp.h
+:000000 100755 0000000... fa3f3a1... A	include/newlib/include/machine/stdlib.h
+:000000 100755 0000000... 41fd459... A	include/newlib/include/machine/termios.h
+:000000 100755 0000000... 06e2ccf... A	include/newlib/include/machine/time.h
+:000000 100755 0000000... 40a75fa... A	include/newlib/include/machine/types.h
+:000000 100755 0000000... 41b5efd... A	include/newlib/include/malloc.h
+:000000 100755 0000000... 606fecf... A	include/newlib/include/math.h
+:000000 100755 0000000... d4fffb1... A	include/newlib/include/newlib.h
+:000000 100755 0000000... b1c70f5... A	include/newlib/include/paths.h
+:000000 100755 0000000... 3640da2... A	include/newlib/include/pthread.h
+:000000 100755 0000000... 1526abf... A	include/newlib/include/pwd.h
+:000000 100755 0000000... 861be71... A	include/newlib/include/reent.h
+:000000 100755 0000000... 8cf144b... A	include/newlib/include/regdef.h
+:000000 100755 0000000... fa3e268... A	include/newlib/include/regex.h
+:000000 100755 0000000... df77a93... A	include/newlib/include/rpc/types.h
+:000000 100755 0000000... 4f93bf3... A	include/newlib/include/rpc/xdr.h
+:000000 100755 0000000... a3f58ac... A	include/newlib/include/sched.h
+:000000 100755 0000000... ed321b0... A	include/newlib/include/search.h
+:000000 100755 0000000... c958d90... A	include/newlib/include/setjmp.h
+:000000 100755 0000000... 8c50a2e... A	include/newlib/include/signal.h
+:000000 100755 0000000... 5a6692f... A	include/newlib/include/spawn.h
+:000000 100755 0000000... 09c0cf7... A	include/newlib/include/stdatomic.h
+:000000 100755 0000000... 643b969... A	include/newlib/include/stdint.h
+:000000 100755 0000000... c2418fa... A	include/newlib/include/stdio.h
+:000000 100755 0000000... a830c88... A	include/newlib/include/stdio_ext.h
+:000000 100755 0000000... ef21866... A	include/newlib/include/stdlib.h
+:000000 100755 0000000... 6325b46... A	include/newlib/include/string.h
+:000000 100755 0000000... 131d81d... A	include/newlib/include/strings.h
+:000000 100755 0000000... 1884136... A	include/newlib/include/sys/_default_fcntl.h
+:000000 100755 0000000... 07bc276... A	include/newlib/include/sys/_types.h
+:000000 100755 0000000... a5e613c... A	include/newlib/include/sys/cdefs.h
+:000000 100755 0000000... 0de3ffb... A	include/newlib/include/sys/config.h
+:000000 100755 0000000... 96314fb... A	include/newlib/include/sys/custom_file.h
+:000000 100755 0000000... 220150d... A	include/newlib/include/sys/dir.h
+:000000 100755 0000000... a3fb5c0... A	include/newlib/include/sys/dirent.h
+:000000 100755 0000000... c93b250... A	include/newlib/include/sys/errno.h
+:000000 100755 0000000... be85f40... A	include/newlib/include/sys/fcntl.h
+:000000 100755 0000000... 02fa1eb... A	include/newlib/include/sys/features.h
+:000000 100755 0000000... 58d4fac... A	include/newlib/include/sys/file.h
+:000000 100755 0000000... 09ea183... A	include/newlib/include/sys/iconvnls.h
+:000000 100755 0000000... 9075e35... A	include/newlib/include/sys/lock.h
+:000000 100755 0000000... ef203d3... A	include/newlib/include/sys/param.h
+:000000 100755 0000000... 4bc7dac... A	include/newlib/include/sys/queue.h
+:000000 100755 0000000... ce5b3ed... A	include/newlib/include/sys/reent.h
+:000000 100755 0000000... eb82755... A	include/newlib/include/sys/resource.h
+:000000 100755 0000000... bed14bf... A	include/newlib/include/sys/sched.h
+:000000 100755 0000000... 3d6ba08... A	include/newlib/include/sys/signal.h
+:000000 100755 0000000... dbd85ee... A	include/newlib/include/sys/stat.h
+:000000 100755 0000000... 0918fe1... A	include/newlib/include/sys/stdio.h
+:000000 100755 0000000... ceedf4b... A	include/newlib/include/sys/string.h
+:000000 100755 0000000... ba9dbd6... A	include/newlib/include/sys/syslimits.h
+:000000 100755 0000000... 1932580... A	include/newlib/include/sys/time.h
+:000000 100755 0000000... 0a2c3de... A	include/newlib/include/sys/timeb.h
+:000000 100755 0000000... 927812c... A	include/newlib/include/sys/times.h
+:000000 100755 0000000... ed33e0a... A	include/newlib/include/sys/types.h
+:000000 100755 0000000... d85195f... A	include/newlib/include/sys/unistd.h
+:000000 100755 0000000... 5e937f1... A	include/newlib/include/sys/utime.h
+:000000 100755 0000000... 73fe372... A	include/newlib/include/sys/wait.h
+:000000 100755 0000000... 07b06dd... A	include/newlib/include/tar.h
+:000000 100755 0000000... ee1820c... A	include/newlib/include/termios.h
+:000000 100755 0000000... f9c8311... A	include/newlib/include/tgmath.h
+:000000 100755 0000000... b91b039... A	include/newlib/include/time.h
+:000000 100755 0000000... 0040752... A	include/newlib/include/unctrl.h
+:000000 100755 0000000... f9fca84... A	include/newlib/include/unistd.h
+:000000 100755 0000000... 652891a... A	include/newlib/include/utime.h
+:000000 100755 0000000... 88cf6f8... A	include/newlib/include/utmp.h
+:000000 100755 0000000... cdc8571... A	include/newlib/include/wchar.h
+:000000 100755 0000000... c72c9de... A	include/newlib/include/wctype.h
+:000000 100755 0000000... 1f09a64... A	include/newlib/include/wordexp.h
+:000000 100755 0000000... ce8a40e... A	include/newlib/libc.a
+:000000 100755 0000000... 7ddd886... A	include/trap.h
+:000000 100755 0000000... b704170... A	kernel/Makefile
+:000000 100755 0000000... 6b8cff8... A	kernel/include/common.h
+:000000 100755 0000000... fdc49f4... A	kernel/include/debug.h
+:000000 100755 0000000... c09a8a8... A	kernel/include/memory.h
+:000000 100755 0000000... 36b0fd4... A	kernel/include/x86.h
+:000000 100755 0000000... f5c0ffa... A	kernel/include/x86/cpu.h
+:000000 100755 0000000... f74cb09... A	kernel/include/x86/io.h
+:000000 100755 0000000... 90875c4... A	kernel/include/x86/memory.h
+:000000 100755 0000000... 1344ea9... A	kernel/src/driver/ide/cache.c
+:000000 100755 0000000... 563f316... A	kernel/src/driver/ide/disk.c
+:000000 100755 0000000... 6345f8e... A	kernel/src/driver/ide/dma.c
+:000000 100755 0000000... d93ec28... A	kernel/src/driver/ide/dma.h
+:000000 100755 0000000... 3e535b5... A	kernel/src/driver/ide/ide.c
+:000000 100755 0000000... d57c81d... A	kernel/src/elf/elf.c
+:000000 100755 0000000... 2c974ab... A	kernel/src/fs/fs.c
+:000000 100755 0000000... 86dc67c... A	kernel/src/irq/do_irq.S
+:000000 100755 0000000... 78f6020... A	kernel/src/irq/i8259.c
+:000000 100755 0000000... 33cf0c2... A	kernel/src/irq/idt.c
+:000000 100755 0000000... d743170... A	kernel/src/irq/irq_handle.c
+:000000 100755 0000000... cedfd2f... A	kernel/src/lib/misc.c
+:000000 100755 0000000... 87e6149... A	kernel/src/lib/printk.c
+:000000 100755 0000000... 386f06f... A	kernel/src/lib/serial.c
+:000000 100755 0000000... 4d21489... A	kernel/src/main.c
+:000000 100755 0000000... 531259c... A	kernel/src/memory/kvm.c
+:000000 100755 0000000... 758fdd6... A	kernel/src/memory/mm.c
+:000000 100755 0000000... 2cd5e8a... A	kernel/src/memory/vmem.c
+:000000 100755 0000000... a8009b6... A	kernel/src/syscall/do_syscall.c
+:000000 100755 0000000... 2147328... A	kernel/start/start.S
+:000000 100755 0000000... 3b9a626... A	nemu/Makefile
+:000000 100755 0000000... 2e4d178... A	nemu/include/cpu/alu.h
+:000000 100755 0000000... e647c77... A	nemu/include/cpu/cpu.h
+:000000 100755 0000000... 2e2607e... A	nemu/include/cpu/fpu.h
+:000000 100755 0000000... f3bb38d... A	nemu/include/cpu/instr.h
+:000000 100644 0000000... b796552... A	nemu/include/cpu/instr/adc.h
+:000000 100644 0000000... 5ad8b1a... A	nemu/include/cpu/instr/add.h
+:000000 100644 0000000... 8a75b9f... A	nemu/include/cpu/instr/and.h
+:000000 100644 0000000... 349825b... A	nemu/include/cpu/instr/call.h
+:000000 100644 0000000... da411fc... A	nemu/include/cpu/instr/cmp.h
+:000000 100644 0000000... 5dedf92... A	nemu/include/cpu/instr/cmps.h
+:000000 100644 0000000... 50190c1... A	nemu/include/cpu/instr/dec.h
+:000000 100755 0000000... 6bd7de4... A	nemu/include/cpu/instr/flags.h
+:000000 100755 0000000... 6c9bb15... A	nemu/include/cpu/instr/group.h
+:000000 100644 0000000... abb681b... A	nemu/include/cpu/instr/idiv.h
+:000000 100644 0000000... 845d104... A	nemu/include/cpu/instr/imul.h
+:000000 100644 0000000... a9c5aec... A	nemu/include/cpu/instr/in.h
+:000000 100644 0000000... 6da3a2a... A	nemu/include/cpu/instr/inc.h
+:000000 100644 0000000... f8c40ac... A	nemu/include/cpu/instr/jcc.h
+:000000 100755 0000000... 2c9a291... A	nemu/include/cpu/instr/jmp.h
+:000000 100644 0000000... 6572024... A	nemu/include/cpu/instr/lea.h
+:000000 100644 0000000... 0e41bfb... A	nemu/include/cpu/instr/leave.h
+:000000 100755 0000000... 77858c7... A	nemu/include/cpu/instr/mov.h
+:000000 100644 0000000... 971507c... A	nemu/include/cpu/instr/mul.h
+:000000 100644 0000000... fa74466... A	nemu/include/cpu/instr/not.h
+:000000 100644 0000000... 6a11a46... A	nemu/include/cpu/instr/or.h
+:000000 100644 0000000... 5d9dc82... A	nemu/include/cpu/instr/pop.h
+:000000 100644 0000000... 598b62d... A	nemu/include/cpu/instr/push.h
+:000000 100644 0000000... ef170de... A	nemu/include/cpu/instr/rep_repe.h
+:000000 100644 0000000... 2495548... A	nemu/include/cpu/instr/ret.h
+:000000 100644 0000000... 9f3414c... A	nemu/include/cpu/instr/sbb.h
+:000000 100644 0000000... 1829fcd... A	nemu/include/cpu/instr/setcc.h
+:000000 100755 0000000... b7ca8e8... A	nemu/include/cpu/instr/shift.h
+:000000 100755 0000000... 81fdf23... A	nemu/include/cpu/instr/special.h
+:000000 100644 0000000... 1891fab... A	nemu/include/cpu/instr/stos.h
+:000000 100644 0000000... 94abbe2... A	nemu/include/cpu/instr/sub.h
+:000000 100644 0000000... 9716cde... A	nemu/include/cpu/instr/test.h
+:000000 100755 0000000... d8ca5f2... A	nemu/include/cpu/instr/x87.h
+:000000 100644 0000000... eec05e2... A	nemu/include/cpu/instr/xchg.h
+:000000 100644 0000000... e229bb0... A	nemu/include/cpu/instr/xor.h
+:000000 100755 0000000... 670b849... A	nemu/include/cpu/instr_helper.h
+:000000 100755 0000000... 1e4217b... A	nemu/include/cpu/intr.h
+:000000 100755 0000000... 5250e17... A	nemu/include/cpu/modrm.h
+:000000 100755 0000000... 0d52701... A	nemu/include/cpu/operand.h
+:000000 100755 0000000... a295c47... A	nemu/include/cpu/reg.h
+:000000 100755 0000000... 9db8eca... A	nemu/include/cpu/reg_fpu.h
+:000000 100755 0000000... 5d81e22... A	nemu/include/cpu/sib.h
+:000000 100755 0000000... dd18ab0... A	nemu/include/device/i8259_pic.h
+:000000 100755 0000000... b1b60cd... A	nemu/include/device/ide.h
+:000000 100755 0000000... 89ee35d... A	nemu/include/device/keyboard.h
+:000000 100755 0000000... abf78c3... A	nemu/include/device/mm_io.h
+:000000 100755 0000000... d39fe56... A	nemu/include/device/port_io.h
+:000000 100755 0000000... 592e4c4... A	nemu/include/device/sdl.h
+:000000 100755 0000000... 554f103... A	nemu/include/device/serial.h
+:000000 100755 0000000... 94a1ce9... A	nemu/include/device/timer.h
+:000000 100755 0000000... e0a8324... A	nemu/include/device/vga.h
+:000000 100755 0000000... 7c8a238... A	nemu/include/macro.h
+:000000 100755 0000000... b0e7103... A	nemu/include/memory/memory.h
+:000000 100755 0000000... 2c243e9... A	nemu/include/memory/mmu/page.h
+:000000 100755 0000000... b93fe5b... A	nemu/include/memory/mmu/segment.h
+:000000 100755 0000000... a6f5979... A	nemu/include/memory/mmu/tlb.h
+:000000 100755 0000000... 9b85977... A	nemu/include/monitor/breakpoint.h
+:000000 100755 0000000... 08381cc... A	nemu/include/monitor/ui.h
+:000000 100755 0000000... cb98b1b... A	nemu/include/nemu.h
+:000000 100644 0000000... ec2fc7a... A	nemu/src/cpu/.~lock.alu.c#
+:000000 100755 0000000... 0618822... A	nemu/src/cpu/alu.c
+:000000 100755 0000000... e7f43bf... A	nemu/src/cpu/cpu.c
+:000000 100755 0000000... 9f16ebf... A	nemu/src/cpu/decode/debug.c
+:000000 100755 0000000... 993d460... A	nemu/src/cpu/decode/modrm.c
+:000000 100755 0000000... fc50d64... A	nemu/src/cpu/decode/opcode.c
+:000000 100755 0000000... e3050bf... A	nemu/src/cpu/decode/operand.c
+:000000 100755 0000000... 346c982... A	nemu/src/cpu/decode/sib.c
+:000000 100755 0000000... 5259aa5... A	nemu/src/cpu/fpu.c
+:000000 100644 0000000... b872365... A	nemu/src/cpu/instr/adc.c
+:000000 100644 0000000... 23de556... A	nemu/src/cpu/instr/add.c
+:000000 100644 0000000... 01f74eb... A	nemu/src/cpu/instr/and.c
+:000000 100755 0000000... 42969f2... A	nemu/src/cpu/instr/bt.c
+:000000 100644 0000000... b879cae... A	nemu/src/cpu/instr/call.c
+:000000 100755 0000000... 7d69783... A	nemu/src/cpu/instr/cbw.c
+:000000 100755 0000000... 4868f91... A	nemu/src/cpu/instr/cltd.c
+:000000 100755 0000000... fb2f564... A	nemu/src/cpu/instr/cmov.c
+:000000 100644 0000000... 8a6df5c... A	nemu/src/cpu/instr/cmp.c
+:000000 100755 0000000... 497bd8b... A	nemu/src/cpu/instr/cmps.c
+:000000 100755 0000000... 3a56fcc... A	nemu/src/cpu/instr/data_size.c
+:000000 100644 0000000... 515484c... A	nemu/src/cpu/instr/dec.c
+:000000 100755 0000000... 23a20bc... A	nemu/src/cpu/instr/div.c
+:000000 100755 0000000... d343461... A	nemu/src/cpu/instr/flags.c
+:000000 100755 0000000... 7fedd44... A	nemu/src/cpu/instr/group.c
+:000000 100755 0000000... 7daa4f9... A	nemu/src/cpu/instr/hlt.c
+:000000 100755 0000000... 14f1823... A	nemu/src/cpu/instr/idiv.c
+:000000 100755 0000000... 50621da... A	nemu/src/cpu/instr/imul.c
+:000000 100644 0000000... 7dacfd3... A	nemu/src/cpu/instr/in.c
+:000000 100644 0000000... cae756a... A	nemu/src/cpu/instr/inc.c
+:000000 100755 0000000... 9637147... A	nemu/src/cpu/instr/inv.c
+:000000 100755 0000000... fdbe7e7... A	nemu/src/cpu/instr/jcc.c
+:000000 100755 0000000... dd89240... A	nemu/src/cpu/instr/jmp.c
+:000000 100644 0000000... 874b5fe... A	nemu/src/cpu/instr/lea.c
+:000000 100644 0000000... aacf457... A	nemu/src/cpu/instr/leave.c
+:000000 100755 0000000... 27d6913... A	nemu/src/cpu/instr/mov.c
+:000000 100755 0000000... e5a3170... A	nemu/src/cpu/instr/movs.c
+:000000 100755 0000000... 37c9802... A	nemu/src/cpu/instr/mul.c
+:000000 100755 0000000... 8af4618... A	nemu/src/cpu/instr/nemu_trap.c
+:000000 100755 0000000... f943576... A	nemu/src/cpu/instr/nop.c
+:000000 100644 0000000... a3f0898... A	nemu/src/cpu/instr/not.c
+:000000 100755 0000000... 144220c... A	nemu/src/cpu/instr/opcode_2_byte.c
+:000000 100644 0000000... af71d8b... A	nemu/src/cpu/instr/or.c
+:000000 100644 0000000... b9947e7... A	nemu/src/cpu/instr/pop.c
+:000000 100644 0000000... 7d7f545... A	nemu/src/cpu/instr/push.c
+:000000 100755 0000000... 47c3185... A	nemu/src/cpu/instr/rep_repe.c
+:000000 100644 0000000... 3f9da0f... A	nemu/src/cpu/instr/ret.c
+:000000 100755 0000000... 55445be... A	nemu/src/cpu/instr/sar.c
+:000000 100644 0000000... e6bbb6b... A	nemu/src/cpu/instr/sbb.c
+:000000 100755 0000000... 32b22f6... A	nemu/src/cpu/instr/setcc.c
+:000000 100755 0000000... b9f0acc... A	nemu/src/cpu/instr/shl.c
+:000000 100755 0000000... 6ccd62a... A	nemu/src/cpu/instr/shr.c
+:000000 100755 0000000... c4f3beb... A	nemu/src/cpu/instr/stos.c
+:000000 100644 0000000... 702337f... A	nemu/src/cpu/instr/sub.c
+:000000 100644 0000000... 93e2a22... A	nemu/src/cpu/instr/test.c
+:000000 100755 0000000... 3fe2805... A	nemu/src/cpu/instr/x87.c
+:000000 100644 0000000... 081ea38... A	nemu/src/cpu/instr/xor.c
+:000000 100755 0000000... 1f4c5fe... A	nemu/src/cpu/intr.c
+:000000 100755 0000000... f330134... A	nemu/src/cpu/reg.c
+:000000 100755 0000000... 6ecf594... A	nemu/src/cpu/test/alu_test.c
+:000000 100755 0000000... 33d54bd... A	nemu/src/cpu/test/fpu_test.c
+:000000 100755 0000000... b243b1d... A	nemu/src/device/dev/ide.c
+:000000 100755 0000000... 73541eb... A	nemu/src/device/dev/keyboard.c
+:000000 100755 0000000... 6150e16... A	nemu/src/device/dev/serial.c
+:000000 100755 0000000... bc99dc6... A	nemu/src/device/dev/timer.c
+:000000 100755 0000000... dcb1d58... A	nemu/src/device/dev/vga-palette.c
+:000000 100755 0000000... 026775d... A	nemu/src/device/dev/vga.c
+:000000 100755 0000000... fd734b5... A	nemu/src/device/i8259_pic.c
+:000000 100755 0000000... 523f38f... A	nemu/src/device/io/mm_io.c
+:000000 100755 0000000... 036c665... A	nemu/src/device/io/port_io.c
+:000000 100755 0000000... f87dfa1... A	nemu/src/device/sdl.c
+:000000 100755 0000000... 34a1f86... A	nemu/src/main.c
+:000000 100755 0000000... 5471db7... A	nemu/src/memory/memory.c
+:000000 100755 0000000... 3e544a7... A	nemu/src/memory/mmu/page.c
+:000000 100755 0000000... 9a584a8... A	nemu/src/memory/mmu/segment.c
+:000000 100755 0000000... e918481... A	nemu/src/memory/mmu/tlb.c
+:000000 100755 0000000... 6bbff3b... A	nemu/src/monitor/breakpoint.c
+:000000 100755 0000000... c9ae1fb... A	nemu/src/monitor/elf.c
+:000000 100755 0000000... ec86f8c... A	nemu/src/monitor/expr.c
+:000000 100755 0000000... 75f12d8... A	nemu/src/monitor/ui.c
+}*/
