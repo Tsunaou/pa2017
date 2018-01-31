@@ -16,7 +16,7 @@
 #define HAS_DEVICE_SERIAL    // the disturbing 'nemu trap output:' tag will be removed
 #define HAS_DEVICE_IDE       // the loader will load the elf from the hard disk instead of mem disk
 #define HAS_DEVICE_KEYBOARD  // keyboard input
-//#define HAS_DEVICE_VGA       // we then have display
+#define HAS_DEVICE_VGA       // we then have display
 
 
 
