@@ -97,8 +97,28 @@ void cache_write(paddr_t paddr, size_t len ,uint32_t data, CacheLine * cache)
 	if(hit)
 	{
 		//printf("write hit!\n");
-		memcpy(hw_mem+paddr,&data,len);
-		memcpy(cache[i].data+baddr,&data,len);
+		//memcpy(hw_mem+paddr,&data,len);
+		//memcpy(cache[i].data+baddr,&data,len);
+		if(baddr + len > 64)
+		{
+			memcpy(hw_mem + paddr, &data, len);
+
+			cache[i].valid = false;
+			paddr_t paddr2 = paddr + len;
+			uint32_t group2 = (paddr2 & 0x1fc0)>>6;
+			uint32_t tag2 = paddr2 >> 13;
+			for(int j = group2*8; j<(group2+1)*8;j++)
+			{
+				if(cache[j].tag == tag2 && cache[j].valid)
+				{
+					cache[j].valid = false;
+				}
+			}
+			return ;
+		}
+
+		memcpy(hw_mem + paddr, &data, len);
+		memcpy(cache[i].data, (hw_mem + (paddr &0xffffffc0)), 64);
 		
 	}
 	else
