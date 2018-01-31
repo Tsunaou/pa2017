@@ -5,10 +5,10 @@
 
 
 // PA 3
-//#define CACHE_ENABLED
+#define CACHE_ENABLED
 #define IA32_SEG             // protect mode enabled
 #define IA32_PAGE            // virtual memory management is now complete
-//#define TLB_ENABLED
+#define TLB_ENABLED
 
 // PA 4
 #define IA32_INTR            // tells NEMU and Kernel that we are ready for handling exceptions(traps only) and interrupts
